@@ -14,6 +14,10 @@
     --muted: #6f7770;
     --line: #e4e1d7;
     --white: #fff
+
+    
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', Arial, sans-serif;
 }
 
 * {
@@ -2418,6 +2422,7 @@ details.mobile-menu[open] .mobile-nav {
     position: relative;
     width: 100%;
     aspect-ratio: 16/9;
+    height: 100vh;
     overflow: hidden;
     background: #102c26;
     color: white
@@ -3732,7 +3737,7 @@ body {
 .section-heading h2 em,
 .story-copy h2 em,
 .updates h2 em {
-    color: #5278b0
+    color: #5278b0;
 }
 
 .seamless-links {
@@ -4212,4 +4217,26 @@ textarea {
 .about-end p {
     font-family: Inter, Arial, sans-serif;
     font-style: normal
+}
+
+/* Route number badge: consistent size and centered digits over each image. */
+.route-index {
+    top: 14px;
+    left: 14px;
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border-radius: 9px;
+    background: #33559b;
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: none;
+    box-shadow: 0 4px 14px #152d5a55
 }
