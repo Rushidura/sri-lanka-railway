@@ -119,7 +119,7 @@ function OfficialsContent() {
   return <div className="about-officials">{officials.map((group) => <section key={group.group}>
     <h3 className="about-subheading">{group.group}</h3>
     <div className="about-people-grid">{group.people.map((person) => <article className="about-person" key={person.name}>
-      {person.image ? <div className="about-person-image"><Image src={person.image} alt={person.name} width={62} height={70} unoptimized loading="lazy" /></div> : <div className="about-person-initials" aria-hidden="true">{person.name.split(" ").filter(Boolean).slice(-2).map((word) => word[0]).join("")}</div>}
+      {person.image ? <div className="about-person-image"><Image src={person.image} alt={person.name} width={88} height={100} unoptimized loading="lazy" /></div> : <div className="about-person-initials" aria-hidden="true">{person.name.split(" ").filter(Boolean).slice(-2).map((word) => word[0]).join("")}</div>}
       <div><h4>{person.name}</h4><p>{person.role}</p></div>
     </article>)}</div>
   </section>)}</div>;
