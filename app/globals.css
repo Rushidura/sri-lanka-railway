@@ -4740,6 +4740,83 @@ textarea {
     .about-structure-chips span { font-size: 12px }
 }
 
+/* Keep navigation easy to find, show the current page, and match the rail palette. */
+.site-header {
+    position: sticky;
+    top: 15px;
+    z-index: 100;
+    margin: 15px auto 22px;
+}
+
+body:has(.hero-stage) .site-header {
+    position: fixed;
+    top: 15px;
+    margin: 0;
+}
+
+.main-nav a {
+    position: relative;
+    transition: color .18s ease;
+}
+
+.main-nav a[aria-current="page"] {
+    color: #33559b;
+    font-weight: 700;
+}
+
+.main-nav a[aria-current="page"]::after {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    margin: auto;
+    background: #e58323;
+    content: "";
+}
+
+.mobile-nav a[aria-current="page"] {
+    padding-left: 10px;
+    border-left: 2px solid #e58323;
+    background: #edf3fb;
+    color: #33559b;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .site-header {
+        top: 15px;
+        margin: 15px auto 15px;
+    }
+
+    body:has(.hero-stage) .site-header { top: 15px }
+}
+
+html {
+    scrollbar-color: #4569a8 #edf1f7;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #edf1f7;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 2px solid #edf1f7;
+    border-radius: 999px;
+    background: #4569a8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e58323;
+}
+
 /* Clearer About navigation and a stronger sans-serif hierarchy for its content. */
 .about-sidebar > .eyebrow {
     font-size: 11px;
