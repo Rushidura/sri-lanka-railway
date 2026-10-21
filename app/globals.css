@@ -4172,3 +4172,44 @@ textarea {
         font-size: 11px
     }
 }
+
+/* Reserve Playfair Display for prominent editorial headings. */
+.search-shortcut strong,
+.home-service-card h3,
+.route-info h3,
+.home-route-grid .route-info h3,
+.update-card h3,
+.story-stats strong,
+.about-facts strong,
+.service-row h2,
+.notice-number,
+.notice-row h2 {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600
+}
+
+.search-shortcut strong {
+    font-size: 14px
+}
+
+.home-service-card h3,
+.route-info h3,
+.home-route-grid .route-info h3 {
+    font-size: 18px
+}
+
+.update-card h3 {
+    font-size: 21px;
+    line-height: 1.35
+}
+
+.story-stats strong,
+.about-facts strong {
+    font-size: 19px
+}
+
+.about-end p {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal
+}
