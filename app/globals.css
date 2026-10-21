@@ -4974,3 +4974,143 @@ html {
         font-size: 13px;
     }
 }
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    padding-bottom: 42px;
+}
+
+.contact-card {
+    min-height: 250px;
+    padding: 25px;
+    border: 1px solid var(--line);
+    background: #fff;
+}
+
+.contact-icon {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 20px;
+    place-items: center;
+    border-radius: 50%;
+    background: #edf3fb;
+    color: #33559b;
+}
+
+.contact-card h2 {
+    margin: 8px 0 10px;
+    color: #243d67;
+    font: 500 21px/1.35 Inter, Arial, sans-serif;
+    letter-spacing: -.02em;
+}
+
+.contact-card p {
+    color: var(--muted);
+    font: 400 14px/1.7 Inter, Arial, sans-serif;
+}
+
+.contact-person {
+    margin-top: 22px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+}
+
+.contact-methods {
+    display: grid;
+    gap: 0;
+    margin-top: 12px;
+}
+
+.contact-methods a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--line);
+    color: #33559b;
+    font: 500 13px/1.4 Inter, Arial, sans-serif;
+}
+
+.contact-methods a span {
+    color: var(--muted);
+}
+
+.contact-methods a strong {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.contact-email-link,
+.contact-next > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #33559b;
+    font: 600 13px/1.4 Inter, Arial, sans-serif;
+}
+
+.contact-email-link {
+    margin-top: 15px;
+}
+
+.contact-next {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 72px;
+    padding: 20px 22px;
+    border: 1px solid var(--line);
+    background: #f5f7fb;
+    color: #33559b;
+}
+
+.contact-next > div {
+    flex: 1;
+}
+
+.contact-next strong {
+    color: #243d67;
+    font: 600 14px/1.45 Inter, Arial, sans-serif;
+}
+
+.contact-next p {
+    margin: 3px 0 0;
+    color: var(--muted);
+    font: 400 13px/1.6 Inter, Arial, sans-serif;
+}
+
+@media (max-width: 850px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .contact-card {
+        min-height: 0;
+        padding: 21px;
+    }
+
+    .contact-next {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 44px;
+    }
+
+    .contact-next > div {
+        flex-basis: calc(100% - 45px);
+    }
+
+    .contact-next > a {
+        margin-left: 37px;
+    }
+}

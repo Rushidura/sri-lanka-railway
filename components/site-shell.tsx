@@ -14,7 +14,7 @@ const nav = [
   ["Passenger info", "/passenger-info"],
   ["Stations", "/stations"],
   ["Notices", "/notices"],
-  ["Contact", "/passenger-info#help"],
+  ["Contact", "/contact"],
 ];
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
