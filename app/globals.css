@@ -4400,8 +4400,40 @@ textarea {
         padding-bottom: 40px
     }
 
+    /* Keep the slide headline and actions comfortably clear of the route label. */
+    .hero-copy {
+        top: 40%;
+        width: 82%;
+    }
+
+    .hero-copy h1 {
+        max-width: 440px;
+        font-size: clamp(20px, 5.7vw, 34px);
+        line-height: .98;
+    }
+
+    .hero-copy > p {
+        max-width: 390px;
+        font-size: clamp(8px, 1.9vw, 10px);
+        line-height: 1.5;
+    }
+
+    .hero-copy .hero-actions {
+        margin-top: 12px;
+    }
+
     .hero-caption { bottom: 62px }
     .hero-controls { bottom: 58px }
+
+    .hero-caption {
+        width: fit-content;
+        padding: 9px 12px 8px;
+        border: 1px solid #ffffff35;
+        border-radius: 8px;
+        background: #0c211f55;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
 
     .booking-head { padding: 8px 12px }
     .booking-head .eyebrow { font-size: 9px }
