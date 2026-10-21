@@ -4370,6 +4370,7 @@ textarea {
 .booking-head .eyebrow { font-size: 10px }
 .booking-head a { font-size: 12px }
 .booking-tabs button { font-size: 13px }
+.booking-tabs button { flex: 0 0 auto; width: max-content }
 .booking-fields label > span { font-size: 10px }
 .booking-fields select,
 .booking-fields input { font-size: 14px }
