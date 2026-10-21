@@ -1,0 +1,9 @@
+import Link from "next/link";
+import { ArrowUpRight, BriefcaseBusiness, BusFront, CircleDollarSign, FileText, Ticket, TrainFront, UsersRound } from "lucide-react";
+import { SiteShell } from "@/components/site-shell";
+import data from "@/data/content-data.json";
+
+export const metadata={title:"Railway Services",description:"Official booking, commuter ticket, season ticket, fare and railway service links."};
+const icons=[Ticket,TrainFront,CircleDollarSign,UsersRound,FileText,BriefcaseBusiness,BusFront];
+export default function Services(){return <SiteShell><main><section className="simple-hero wrap"><div className="eyebrow"><span className="gold-dot"/> HERE FOR EVERY KIND OF JOURNEY</div><h1>Railway services<br/><em>for everyday life.</em></h1><p>Find ticketing, seat reservation, season ticket and commercial service information from Sri Lanka Railways and its official service partners.</p></section><section className="service-list wrap">{data.services.map((s,i)=>{const Icon=icons[i%icons.length];return <article className="service-row" key={s.title}><span className="service-icon"><Icon size={20}/></span><div><span className="eyebrow">{s.category.toUpperCase()} · {String(i+1).padStart(2,"0")}</span><h2>{s.title}</h2><p>{s.summary}</p></div><a href={s.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${s.title} official page`}><ArrowUpRight size={18}/></a></article>})}</section><section className="service-note wrap"><span className="eyebrow">OFFICIAL SERVICE LINKS</span><p>Bookings, live availability and payments are completed on the linked official railway services. Service terms and fare documents can change; check the official source before travelling.</p><a className="button button-dark" href="https://railway.gov.lk/web/index.php?Itemid=242&id=909&lang=en&option=com_content&view=article" target="_blank" rel="noreferrer">Visit Sri Lanka Railways <ArrowUpRight size={14}/></a></section></main></SiteShell>}
+

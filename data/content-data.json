@@ -1,0 +1,2585 @@
+{
+  "researchDate": "2026-10-20",
+  "source": "https://railway.gov.lk/web/index.php",
+  "scope": "Verified complete top-level navigation and 17-service inventory, all station rows, download links and detailed summaries. Paginated historical article archives remain linked at their official source.",
+  "about": [
+    {
+      "title": "Overview",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=176&id=138&lang=en&option=com_content&view=article",
+      "summary": "Sri Lanka Railways is a government department providing passenger and freight transport under the Ministry of Transport. Its General Manager reports to the Ministry Secretary.",
+      "stats": [
+        [
+          "Railway tracks",
+          "1,561 km"
+        ],
+        [
+          "Locomotives",
+          "72"
+        ],
+        [
+          "Power sets",
+          "78"
+        ],
+        [
+          "Passenger carriages",
+          "565"
+        ]
+      ],
+      "updated": "2026-02-17",
+      "details": [
+        "SLR serves both everyday commuters and longer-distance travellers, as well as goods transport. Passenger services now form the main focus of its operations.",
+        "The department's stated vision is to become Sri Lanka's preferred land transport provider. Its mission emphasizes safety, reliability and punctuality for both passengers and goods."
+      ]
+    },
+    {
+      "title": "History",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=181&id=137&lang=en&option=com_content&view=article",
+      "summary": "The railway began in 1864 to carry hill-country coffee to Colombo. Tea, coconut and rubber production later encouraged expansion, followed by routes connecting communities across the island.",
+      "updated": "2026-02-17",
+      "details": [
+        "Coffee exports originally drove railway development. After coffee blight in 1871, the growth of tea estates required movement of produce, workers, equipment and supplies between the hills and Colombo.",
+        "Later expansion supported coconut and rubber cultivation, linked northern and eastern towns, and connected the harbour at Trincomalee. The Kelani Valley route served areas east of Colombo.",
+        "Hill-country terrain required winding alignments, steep gradients and sharp curves. Connections into Colombo's port strengthened the railway's role in trade."
+      ]
+    },
+    {
+      "title": "Key Positions",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=231&id=709&lang=en&option=com_content&view=article",
+      "summary": "Meet the Ministry officials, General Manager and railway management team.",
+      "updated": "2026-07-13",
+      "officials": [
+        {
+          "name": "Hon. Bimal Rathnayake",
+          "role": "Minister"
+        },
+        {
+          "name": "Hon. (Dr.) Prasanna Gunasena",
+          "role": "Deputy Minister"
+        },
+        {
+          "name": "Mr. Thushara D Pathiranage",
+          "role": "Acting Secretary"
+        },
+        {
+          "name": "Mr. Ravindra Pathmapriya",
+          "role": "General Manager of Railways"
+        },
+        {
+          "name": "Mrs. M.M.P. Priyangani Pathangoda",
+          "role": "Additional General Manager (Administration)"
+        },
+        {
+          "name": "Mr. K.K. Hewavithana",
+          "role": "Additional General Manager (Mechanical)"
+        },
+        {
+          "name": "Mr. P.D.S.B. Chandrasena",
+          "role": "Additional General Manager (Operation)"
+        },
+        {
+          "name": "Mrs. P.R.B. Sumangali",
+          "role": "Chief Finance Officer (Acting)"
+        },
+        {
+          "name": "Mr. W.D.R. Pathmalal",
+          "role": "Deputy General Manager (Commercial)"
+        },
+        {
+          "name": "Mr. N.J. Indipolage",
+          "role": "Deputy General Manager (Transport)"
+        },
+        {
+          "name": "Mr. R.M.N.K.S. Kanchana",
+          "role": "Deputy General Manager (Administration)"
+        },
+        {
+          "name": "Mr. K.P.C.P. Karunanayaka",
+          "role": "Deputy General Manager (Procurement)"
+        },
+        {
+          "name": "Mr. K.G.S. Bandara",
+          "role": "Chief Mechanical Engineer"
+        },
+        {
+          "name": "H.M.B. Sampath",
+          "role": "Chief Engineer (Motive Power)"
+        },
+        {
+          "name": "Mr. E.M.S.P.K. Deegala",
+          "role": "Chief Engineer (Way & Works)"
+        },
+        {
+          "name": "Mr. V.C.D. Jayasekara",
+          "role": "Chief Engineer (Signal & Telecommunication)"
+        },
+        {
+          "name": "Mr. P.A.D. Amila",
+          "role": "Chief Internal Auditor"
+        },
+        {
+          "name": "Mr. K.G. Anura Premarathna",
+          "role": "Superintendent (Railway Security Service)"
+        }
+      ]
+    },
+    {
+      "title": "Organizational Structure",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=232&id=710&lang=en&option=com_content&view=article",
+      "summary": "Explore the department's leadership, engineering, transport, commercial and specialist units. The official site says an updated organization chart is under review.",
+      "updated": "2026-02-17",
+      "details": [
+        "The General Manager is the department's chief executive and accounting officer, with responsibility to the Ministry of Transport."
+      ],
+      "departments": [
+        "Chief Accountant",
+        "Commercial Superintendent",
+        "Motive Power Engineering",
+        "Way & Works Engineering",
+        "Signal & Telecommunication Engineering",
+        "Railway Stores",
+        "Mechanical Engineering",
+        "Transportation"
+      ],
+      "units": [
+        "Railway Protection Service",
+        "Principal Costing Officer",
+        "Sales & Marketing",
+        "Planning",
+        "Internal Audit",
+        "Sri Lanka Railway–German Technical Training Centre",
+        "Railway Operations & Transport Management Institute"
+      ]
+    },
+    {
+      "title": "Railway Network",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=186&id=162&lang=en&option=com_content&view=article",
+      "summary": "View the official railway network map.",
+      "updated": "2025-03-25"
+    }
+  ],
+  "services": [
+    {
+      "number": 1,
+      "title": "Commuter tickets",
+      "category": "Travel",
+      "url": "https://pravesha.lk/en",
+      "summary": "Buy commuter tickets through Pravesha."
+    },
+    {
+      "number": 2,
+      "title": "Online seat reservations",
+      "category": "Travel",
+      "url": "https://seatreservation.railway.gov.lk/mtktwebslr/",
+      "summary": "Reserve seats through the official booking portal."
+    },
+    {
+      "number": 3,
+      "title": "Season tickets",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/pdf/issuing_railway_seasons_tickets_sinhala.pdf",
+      "summary": "Private and government season options support regular travel between named stations.",
+      "details": [
+        "Season tickets cover repeated journeys between two named stations over the applicable period. The guide lists weekly, monthly and zonal options, plus a government three-month option.",
+        "First-time applicants obtain a season folder using the relevant identity or concessionary folder form. Consult the station for current requirements and charges."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Intercity & express reservations",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/pdf/reservation_of_seats_in_intercity_and_other_express_trains.pdf",
+      "summary": "Read the reservation guidance for intercity and other express services.",
+      "details": [
+        "The guide covers reservations on intercity and express routes from Colombo toward destinations including Kandy, Badulla, Jaffna, Batticaloa and Trincomalee.",
+        "Prepare the journey date, party size, class and possible alternative dates. Use the current online portal or inquire at a reservation station for availability."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Special train reservations",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/pdf/reservation_of_a_special_train.pdf",
+      "summary": "Apply to the Commercial Superintendent to arrange a special train.",
+      "details": [
+        "Apply through the Commercial Superintendent at Railway Headquarters, Colombo 10. The guide requests an application or letter around 30 days before the journey.",
+        "Include the organizer, passenger count, starting and ending stations and proposed dates. Railway staff check train-set availability before confirming the arrangement."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Air-conditioned HITACHI train",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/pdf/reservation_of_air_conditioned_train_hitachi.pdf",
+      "summary": "Access the official air-conditioned train reservation guide."
+    },
+    {
+      "number": 7,
+      "title": "Train compartment reservations",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/pdf/reservation_of_compartment_of_a_train.pdf",
+      "summary": "Request a compartment for group travel through the commercial office.",
+      "details": [
+        "Check compartment availability with the Commercial Superintendent before applying. Supply the organization, passenger count, stations and intended dates.",
+        "The published guide requests advance applications and provides for a confirmation letter after review."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Holiday resort reservations",
+      "category": "Stay",
+      "url": "https://railway.gov.lk/web/images/pdf/reservation_of_a_railway_holiday_resorts.pdf",
+      "summary": "Find reservation guidance for holiday bungalows in Nuwara Eliya and Kataragama.",
+      "details": [
+        "The official guide lists holiday bungalows at Nuwara Eliya and Kataragama, with reservations administered by the Ministry of Transport.",
+        "Applicants submit the Ministry's form and the relevant identification or departmental approval. Availability and current charges should be confirmed with the Ministry."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Station retiring rooms",
+      "category": "Stay",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/retire_room_charge_eng.pdf",
+      "summary": "View station retiring rooms, facilities and charges."
+    },
+    {
+      "number": 10,
+      "title": "Station advertising",
+      "category": "Business",
+      "url": "https://railway.gov.lk/web/images/pdf/displaying_advertisements_at_railway_stations_and_other_railway_premises.pdf",
+      "summary": "Apply for advertising space at stations and railway premises.",
+      "details": [
+        "Requests go to the Sales and Marketing office. Form 2.7 or a detailed letter identifies the location, advertisement size, content and display period.",
+        "The proposed placement is checked for interference with railway operations before approval and payment."
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Photography & filming",
+      "category": "Business",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/photographing_eng.pdf",
+      "summary": "Read the permission requirements for filming and photography on railway property."
+    },
+    {
+      "number": 12,
+      "title": "Business premises",
+      "category": "Business",
+      "url": "https://railway.gov.lk/web/images/pdf/obtaining_space_in_railway_premises_for_business_purposes.pdf",
+      "summary": "Find the tender process for canteens, storage and stalls.",
+      "details": [
+        "Commercial use of railway premises follows a tender process. Examples include canteens, storage facilities and stalls.",
+        "Tender conditions govern each opportunity. The published guide lists identification and business registration among the supporting documents."
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Goods by railway wagon",
+      "category": "Freight",
+      "url": "https://railway.gov.lk/web/images/pdf/transporting_goods_using_railway_goods_wagons.pdf",
+      "summary": "Arrange permitted freight transport and wagon requirements.",
+      "details": [
+        "Request wagon transport through Sales and Marketing, identifying the goods, origin, destination, wagon placement station and dates.",
+        "A consignment note is completed at the loading station. The guide describes customer loading and collection using the receipt and identification; restricted goods remain excluded."
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Parcel transport",
+      "category": "Freight",
+      "url": "https://railway.gov.lk/web/images/pdf/transporting_parcels_by_trains.pdf",
+      "summary": "Find the process for sending permitted parcels through railway stations.",
+      "details": [
+        "The published parcel guide allows permitted parcels up to 50 kg each. Obtain and complete the station's form when handing over the parcel.",
+        "Consult the station for current acceptance times, charges and collection requirements. Prohibited goods are excluded."
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Station ATMs",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/atm_eng.pdf",
+      "summary": "Locate ATM information published for railway stations."
+    },
+    {
+      "number": 16,
+      "title": "Fares & charges",
+      "category": "Travel",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=200&id=877&lang=en&option=com_content&view=article",
+      "summary": "Open official fare and commercial charge documents."
+    },
+    {
+      "number": 17,
+      "title": "Application forms",
+      "category": "Resources",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=218&id=913&lang=en&option=com_content&view=article",
+      "summary": "Find forms for railway services."
+    }
+  ],
+  "digital": [
+    {
+      "title": "Pravesha smart tickets",
+      "url": "https://pravesha.lk/en",
+      "summary": "Purchase commuter tickets online.",
+      "status": "Available"
+    },
+    {
+      "title": "Seat reservations & E-warrants",
+      "url": "https://seatreservation.railway.gov.lk/mtktwebslr/",
+      "summary": "Access the official reserved-seat booking and E-warrant system.",
+      "status": "Available"
+    },
+    {
+      "title": "Private season tickets",
+      "url": "https://seatreservation.railway.gov.lk/mtktwebslr/memberlogin?user=seasonPassenger",
+      "summary": "Sign in to the private sector commuter season portal.",
+      "status": "Available"
+    },
+    {
+      "title": "OGA portal",
+      "url": "https://oga.pravesha.lk/login",
+      "summary": "Other Government Association portal.",
+      "status": "Available"
+    },
+    {
+      "title": "Train schedule",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=210&id=1017&lang=en&option=com_content&view=article",
+      "summary": "The official schedule page is temporarily unavailable during an upgrade.",
+      "status": "Under development"
+    },
+    {
+      "title": "Land management system",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=210&id=1013&lang=en&option=com_content&view=article",
+      "summary": "Listed on the digital services page as under construction.",
+      "status": "Under construction"
+    }
+  ],
+  "noticeCategories": [
+    {
+      "title": "Commercial Notices",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=200&id=877&lang=en&option=com_content&view=article",
+      "summary": "Fare tables, booking charges, retiring rooms and commercial fees."
+    },
+    {
+      "title": "Departmental Notices",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=206&id=54&lang=en&option=com_content&view=category",
+      "summary": "Staff transfers, appointments and departmental announcements."
+    },
+    {
+      "title": "Exam Notices",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=238&id=57&lang=en&option=com_content&view=category",
+      "summary": "Competitive examinations, results and interview eligibility."
+    },
+    {
+      "title": "Procurement Notices",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=197&id=51&lang=en&option=com_content&view=category",
+      "summary": "Tenders, railway works, equipment and supply opportunities."
+    },
+    {
+      "title": "Recruitment Procedures",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=233&id=56&lang=en&option=com_content&view=category",
+      "summary": "Recruitment schemes and procedures."
+    },
+    {
+      "title": "Departmental Circulars",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=246&id=63&lang=en&option=com_content&view=category",
+      "summary": "Official circulars and administrative guidance."
+    },
+    {
+      "title": "Clean Sri Lanka",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=247&id=1026&lang=en&option=com_content&view=article",
+      "summary": "Railway participation in the Clean Sri Lanka programme."
+    },
+    {
+      "title": "Media Notices",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=241&id=60&lang=en&option=com_content&view=category",
+      "summary": "Train service changes, restorations and public announcements."
+    }
+  ],
+  "notices": [
+    {
+      "title": "Technology partnership to help prevent elephant–train collisions",
+      "category": "Clean Sri Lanka",
+      "updated": "2026-09-03",
+      "dateType": "Page updated",
+      "url": "https://railway.gov.lk/web/index.php?id=1045:mou-signed-to-prevent-elephanttrain-collisions&lang=en&option=com_content&view=article",
+      "summary": "A partnership involving railway and conservation agencies, coordinated by Clean Sri Lanka with People's Bank funding, will develop technological protection measures."
+    },
+    {
+      "title": "Badulla–Nanu Oya train services resume",
+      "category": "Media Notices",
+      "updated": null,
+      "url": "https://railway.gov.lk/web/index.php?Itemid=241&id=60&lang=en&option=com_content&view=category",
+      "summary": "The media notice index reports restored services following repairs to the Ambewela–Nanu Oya section."
+    },
+    {
+      "title": "Concessionary government season tickets through Pravesha",
+      "category": "Departmental Circulars",
+      "updated": null,
+      "url": "https://railway.gov.lk/web/images/pdf/circular/railway_seasonticket_circular_eng.pdf",
+      "summary": "English circular for issuing concessionary railway season tickets to government officials through the online system."
+    },
+    {
+      "title": "Railway Security Service transfers — 2025/2026",
+      "category": "Departmental Notices",
+      "updated": null,
+      "url": "https://railway.gov.lk/web/index.php?Itemid=206&id=54&lang=en&option=com_content&view=category",
+      "summary": "The departmental index includes the railway security service transfer announcement."
+    },
+    {
+      "title": "SRS/F. 8185 — base plates, bolts and nuts",
+      "category": "Procurement Notices",
+      "updated": null,
+      "url": "https://railway.gov.lk/web/index.php?Itemid=197&id=51&lang=en&option=com_content&view=category",
+      "summary": "Procurement notice for railway base plates and fastenings. Consult the notice for eligibility and deadlines."
+    },
+    {
+      "title": "Grade III Railway Guard competitive examination",
+      "category": "Exam Notices",
+      "updated": null,
+      "url": "https://railway.gov.lk/web/index.php?Itemid=238&id=57&lang=en&option=com_content&view=category",
+      "summary": "Official examination announcement for the 2024 (2025) recruitment round."
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Acts, ordinances, gazettes & circulars",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=239&id=727&lang=en&option=com_content&view=article",
+      "items": [
+        "Railway Ordinance",
+        "Railways (Amendment) Act No. 25 of 1986",
+        "Railways (Amendment) Act No. 49 of 1983",
+        "Gazette on revised railway fares",
+        "Circular for railway warrant payments"
+      ],
+      "files": [
+        {
+          "title": "Railway Ordinance",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/circular123.pdf"
+        },
+        {
+          "title": "Railway Ordinance",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/railways.pdf"
+        },
+        {
+          "title": "Amendment Act 25 of 1986",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/25-1986_s.pdf"
+        },
+        {
+          "title": "Amendment Act 25 of 1986",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/25-1986_t.pdf"
+        },
+        {
+          "title": "Amendment Act 49 of 1983",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/49-1983_t.pdf"
+        },
+        {
+          "title": "Amendment Act 49 of 1983",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/rai_lwaysamendment_act_no_49_of%20_1983.pdf"
+        },
+        {
+          "title": "Railway fare gazette",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/ticketprice2022.pdf"
+        },
+        {
+          "title": "Railway fare gazette",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/2287-25_t.pdf"
+        },
+        {
+          "title": "Railway fare gazette",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/2287-25_e.pdf"
+        },
+        {
+          "title": "Railway warrant payment circular",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/warrant_english.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Reports",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=219&id=698&lang=en&option=com_content&view=article",
+      "items": [
+        "Administration Report 2024",
+        "Performance Report 2017"
+      ],
+      "files": [
+        {
+          "title": "Administration Report 2024",
+          "url": "https://railway.gov.lk/web/images/pdf/admin%20report%20-%202024%20y.pdf"
+        },
+        {
+          "title": "Performance Report 2017",
+          "url": "https://railway.gov.lk/web/images/pdf/english_performance_2017.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Application forms",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=218&id=913&lang=en&option=com_content&view=article",
+      "items": [
+        "Photography and filming — Form 2.8",
+        "Declaration of goods value — Form 2.10",
+        "Railway advertising — Form 2.7",
+        "Season ticket identity card — Form 2.12",
+        "Concessionary season folder — Form 2.11"
+      ],
+      "files": [
+        {
+          "title": "Photography and filming — Form 2.8",
+          "url": "https://railway.gov.lk/web/images/pdf/2.8.pdf"
+        },
+        {
+          "title": "Declaration of goods value — Form 2.10",
+          "url": "https://railway.gov.lk/web/images/pdf/form_2.10_english.pdf"
+        },
+        {
+          "title": "Railway advertising — Form 2.7",
+          "url": "https://railway.gov.lk/web/images/commercial_notices/ad_app_eng.pdf"
+        },
+        {
+          "title": "Season ticket identity card — Form 2.12",
+          "url": "https://railway.gov.lk/web/images/pdf/special_identity_card.pdf"
+        },
+        {
+          "title": "Concessionary season folder — Form 2.11",
+          "url": "https://railway.gov.lk/web/images/pdf/special_folder.pdf"
+        },
+        {
+          "title": "Railway advertising — Form 2.7",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/commercial_notices/ad_app_sin.pdf"
+        },
+        {
+          "title": "Railway advertising — Form 2.7",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/commercial_notices/ad_app_tam.pdf"
+        }
+      ]
+    }
+  ],
+  "rti": [
+    {
+      "title": "RTI notice & procedure",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=244&id=535&lang=en&option=com_content&view=article",
+      "summary": "Read how to request railway information, applicable fees and the appeal procedure under Act No. 12 of 2016."
+    },
+    {
+      "title": "RTI act, request & appeal forms",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=236&id=712&lang=en&option=com_content&view=article",
+      "summary": "Access the Act, information request form and appeal form in Sinhala, Tamil and English.",
+      "files": [
+        {
+          "title": "Right to Information Act",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/12-2016_s.pdf"
+        },
+        {
+          "title": "Right to Information Act",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/12-2016_t.pdf"
+        },
+        {
+          "title": "Right to Information Act",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/12-2016_e.pdf"
+        },
+        {
+          "title": "Information request",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_01_s.pdf"
+        },
+        {
+          "title": "Information request",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_01_t.pdf"
+        },
+        {
+          "title": "Information request",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_01_e.pdf"
+        },
+        {
+          "title": "Appeal to designated officer",
+          "language": "Sinhala",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_10_s.pdf"
+        },
+        {
+          "title": "Appeal to designated officer",
+          "language": "Tamil",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_10_t.pdf"
+        },
+        {
+          "title": "Appeal to designated officer",
+          "language": "English",
+          "url": "https://railway.gov.lk/web/images/pdf/rti_10_e.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Information officers",
+      "url": "https://railway.gov.lk/web/index.php?Itemid=237&id=722&lang=en&option=com_content&view=article",
+      "summary": "Find designated officers and departmental contact details.",
+      "chiefOfficer": "Mrs. M.M.P. Priyangani Pathangoda",
+      "phone": "0114600102"
+    }
+  ],
+  "contact": {
+    "url": "https://railway.gov.lk/web/index.php?Itemid=195&id=720&lang=en&option=com_content&view=article",
+    "generalManager": "Mr. Ravindra Pathmapriya",
+    "address": "Railway Headquarters, Colombo 10, Sri Lanka",
+    "email": "gmr@railway.gov.lk",
+    "headOffice": "+94 11 4 600 111",
+    "fortInquiries": "+94 11 2 434215",
+    "operations": "+94 11 2 692286",
+    "updated": "2026-02-12"
+  },
+  "stationDirectory": {
+    "url": "https://railway.gov.lk/web/index.php?Itemid=191&id=165&lang=en&option=com_content&view=article",
+    "lines": [
+      "Main Line",
+      "Matale Line",
+      "Puttalam Line",
+      "Northern Line",
+      "Batticaloa Line",
+      "Coast Line",
+      "Kelani Valley Line",
+      "Trincomalee Line",
+      "Talaimannar Line"
+    ],
+    "stations": [
+      {
+        "name": "Maradana",
+        "line": "Main Line",
+        "phone": "011-2965230",
+        "distanceKm": 1.9
+      },
+      {
+        "name": "Dematagoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 3.668
+      },
+      {
+        "name": "Kelaniya",
+        "line": "Main Line",
+        "phone": "011-2911426",
+        "distanceKm": 6.873
+      },
+      {
+        "name": "Wanawasala",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 8.676
+      },
+      {
+        "name": "Hunupitiya",
+        "line": "Main Line",
+        "phone": "011-2932271",
+        "distanceKm": 10.026
+      },
+      {
+        "name": "Enderamulla",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 11.699
+      },
+      {
+        "name": "Horape",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 14.043
+      },
+      {
+        "name": "Ragama",
+        "line": "Main Line",
+        "phone": "011-2959271",
+        "distanceKm": 15.546
+      },
+      {
+        "name": "Walpola",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 18.116
+      },
+      {
+        "name": "Batuwatte",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 19.083
+      },
+      {
+        "name": "Bulugahagoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 20.731
+      },
+      {
+        "name": "Ganemulla",
+        "line": "Main Line",
+        "phone": "033-2260271",
+        "distanceKm": 22.522
+      },
+      {
+        "name": "Yagoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 24.324
+      },
+      {
+        "name": "Gampaha",
+        "line": "Main Line",
+        "phone": "033-2222271",
+        "distanceKm": 27.538
+      },
+      {
+        "name": "Daraluwa",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 29.921
+      },
+      {
+        "name": "Bemmulla",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 31.905
+      },
+      {
+        "name": "Magelegoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 34.164
+      },
+      {
+        "name": "Heendeniya",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 35.67
+      },
+      {
+        "name": "Veyangoda",
+        "line": "Main Line",
+        "phone": "033-2287271",
+        "distanceKm": 37.478
+      },
+      {
+        "name": "Wandurawa",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 39.331
+      },
+      {
+        "name": "Keenawala",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 41.627
+      },
+      {
+        "name": "Pallewala",
+        "line": "Main Line",
+        "phone": "033-2270271",
+        "distanceKm": 43.913
+      },
+      {
+        "name": "Ganegoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 46.213
+      },
+      {
+        "name": "Wijayarajadahana",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 49.1
+      },
+      {
+        "name": "Mihirigama",
+        "line": "Main Line",
+        "phone": "033-2273271",
+        "distanceKm": 50.27
+      },
+      {
+        "name": "Wilwatte",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 52.108
+      },
+      {
+        "name": "Botale",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 54.433
+      },
+      {
+        "name": "Abeypussa",
+        "line": "Main Line",
+        "phone": "033-3961177",
+        "distanceKm": 56.224
+      },
+      {
+        "name": "Yattalgoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 59.851
+      },
+      {
+        "name": "Buthgamuwa",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 61.873
+      },
+      {
+        "name": "Alawwa",
+        "line": "Main Line",
+        "phone": "037-2278171",
+        "distanceKm": 65.672
+      },
+      {
+        "name": "Wlakubura",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 69.784
+      },
+      {
+        "name": "Poplgahawela",
+        "line": "Main Line",
+        "phone": "037-2243271",
+        "distanceKm": 73.827
+      },
+      {
+        "name": "Panaleeya",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 77.872
+      },
+      {
+        "name": "Tismalpola",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 78.954
+      },
+      {
+        "name": "Yatagama",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 82.555
+      },
+      {
+        "name": "Rambukkana",
+        "line": "Main Line",
+        "phone": "035-2265271",
+        "distanceKm": 84.437
+      },
+      {
+        "name": "Kadigamuwa",
+        "line": "Main Line",
+        "phone": "081-3753261",
+        "distanceKm": 90.239
+      },
+      {
+        "name": "Gangoda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 93.805
+      },
+      {
+        "name": "Ihalakotte",
+        "line": "Main Line",
+        "phone": "081-3753291",
+        "distanceKm": 96.081
+      },
+      {
+        "name": "Balana",
+        "line": "Main Line",
+        "phone": "081-2055371",
+        "distanceKm": 101.069
+      },
+      {
+        "name": "Kadugannawa",
+        "line": "Main Line",
+        "phone": "081-2571271",
+        "distanceKm": 105.537
+      },
+      {
+        "name": "Pilimatalawa",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 109.446
+      },
+      {
+        "name": "Peradeniya",
+        "line": "Main Line",
+        "phone": "081-2388271",
+        "distanceKm": 114.851
+      },
+      {
+        "name": "Koshinna",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 117.36
+      },
+      {
+        "name": "Gelioya",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 119.54
+      },
+      {
+        "name": "Gampola",
+        "line": "Main Line",
+        "phone": "081-2352271",
+        "distanceKm": 126.931
+      },
+      {
+        "name": "Tembligala",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 130.873
+      },
+      {
+        "name": "Ulapone",
+        "line": "Main Line",
+        "phone": "081-2352671",
+        "distanceKm": 134.306
+      },
+      {
+        "name": "Nawalapitiya",
+        "line": "Main Line",
+        "phone": "054-2222271",
+        "distanceKm": 141.522
+      },
+      {
+        "name": "Inguruoya",
+        "line": "Main Line",
+        "phone": "054-3546397",
+        "distanceKm": 147.307
+      },
+      {
+        "name": "Galaboda",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 152.857
+      },
+      {
+        "name": "Watawala",
+        "line": "Main Line",
+        "phone": "051-2237271",
+        "distanceKm": 162.1
+      },
+      {
+        "name": "Ihalawatawala",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 165.15
+      },
+      {
+        "name": "Rosella",
+        "line": "Main Line",
+        "phone": "051-2237270",
+        "distanceKm": 167.789
+      },
+      {
+        "name": "Hatton",
+        "line": "Main Line",
+        "phone": "051-2222271",
+        "distanceKm": 174.905
+      },
+      {
+        "name": "Kotagala",
+        "line": "Main Line",
+        "phone": "051-2244271",
+        "distanceKm": 179.969
+      },
+      {
+        "name": "Talawakele",
+        "line": "Main Line",
+        "phone": "052-2258271",
+        "distanceKm": 187.857
+      },
+      {
+        "name": "watagoda",
+        "line": "Main Line",
+        "phone": "051-2236071",
+        "distanceKm": 194.296
+      },
+      {
+        "name": "Greatwestern",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 199.306
+      },
+      {
+        "name": "Radella",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 202.709
+      },
+      {
+        "name": "Nanuoya",
+        "line": "Main Line",
+        "phone": "052-2222873",
+        "distanceKm": 207.056
+      },
+      {
+        "name": "Perakumpura",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 212.206
+      },
+      {
+        "name": "Ambewela",
+        "line": "Main Line",
+        "phone": "052-2222114",
+        "distanceKm": 221.495
+      },
+      {
+        "name": "Pattipola",
+        "line": "Main Line",
+        "phone": "051-3504745",
+        "distanceKm": 224.931
+      },
+      {
+        "name": "Ohiya",
+        "line": "Main Line",
+        "phone": "051-3504744",
+        "distanceKm": 231.641
+      },
+      {
+        "name": "Idalgasinna",
+        "line": "Main Line",
+        "phone": "057-3587820",
+        "distanceKm": 240.563
+      },
+      {
+        "name": "Haputale",
+        "line": "Main Line",
+        "phone": "052-2268071",
+        "distanceKm": 247.968
+      },
+      {
+        "name": "Deyatalawa",
+        "line": "Main Line",
+        "phone": "057-2229461",
+        "distanceKm": 253.079
+      },
+      {
+        "name": "Bandarawela",
+        "line": "Main Line",
+        "phone": "057-2222271",
+        "distanceKm": 259.148
+      },
+      {
+        "name": "Kinigama",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 261.447
+      },
+      {
+        "name": "Heeloya",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 265.372
+      },
+      {
+        "name": "Kitalelle",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 269.73
+      },
+      {
+        "name": "Elle",
+        "line": "Main Line",
+        "phone": "057-2228571",
+        "distanceKm": 271.592
+      },
+      {
+        "name": "Demodara",
+        "line": "Main Line",
+        "phone": "055-2294171",
+        "distanceKm": 277.717
+      },
+      {
+        "name": "Uduwara",
+        "line": "Main Line",
+        "phone": null,
+        "distanceKm": 283.222
+      },
+      {
+        "name": "Haliela",
+        "line": "Main Line",
+        "phone": "055-2294271",
+        "distanceKm": 286.596
+      },
+      {
+        "name": "Badulla",
+        "line": "Main Line",
+        "phone": "055-2222271",
+        "distanceKm": 292.393
+      },
+      {
+        "name": "Sarasaviuyana",
+        "line": "Matale Line",
+        "phone": "081-2388282",
+        "distanceKm": 115.686
+      },
+      {
+        "name": "Kandy",
+        "line": "Matale Line",
+        "phone": "081-2222271",
+        "distanceKm": 120.737
+      },
+      {
+        "name": "Mahaiyawa",
+        "line": "Matale Line",
+        "phone": null,
+        "distanceKm": 122.402
+      },
+      {
+        "name": "Katugastota",
+        "line": "Matale Line",
+        "phone": "081-249971",
+        "distanceKm": 126.285
+      },
+      {
+        "name": "Udatalawinna",
+        "line": "Matale Line",
+        "phone": null,
+        "distanceKm": 128.784
+      },
+      {
+        "name": "Wattegama",
+        "line": "Matale Line",
+        "phone": "081-2476271",
+        "distanceKm": 132.889
+      },
+      {
+        "name": "Pathanpha",
+        "line": "Matale Line",
+        "phone": null,
+        "distanceKm": 137.428
+      },
+      {
+        "name": "Udaththawala",
+        "line": "Matale Line",
+        "phone": null,
+        "distanceKm": 141.774
+      },
+      {
+        "name": "Ukuwela",
+        "line": "Matale Line",
+        "phone": "066-2244527",
+        "distanceKm": 143.018
+      },
+      {
+        "name": "Matale",
+        "line": "Matale Line",
+        "phone": "066-2222271",
+        "distanceKm": 148.609
+      },
+      {
+        "name": "Peralanda",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 17.077
+      },
+      {
+        "name": "Kandana",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 18.829
+      },
+      {
+        "name": "Kapuwatte",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 20.556
+      },
+      {
+        "name": "Ja-Ela",
+        "line": "Puttalam Line",
+        "phone": "011-2236409",
+        "distanceKm": 22.153
+      },
+      {
+        "name": "Tudella",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 23.934
+      },
+      {
+        "name": "Kudahakapola",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 25.18
+      },
+      {
+        "name": "Alawatupitiya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 26.503
+      },
+      {
+        "name": "Seeduwa",
+        "line": "Puttalam Line",
+        "phone": "11-2253571",
+        "distanceKm": 28.056
+      },
+      {
+        "name": "Liyanagemulla",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 30.124
+      },
+      {
+        "name": "Katunayaka Airport",
+        "line": "Puttalam Line",
+        "phone": "011-2252271",
+        "distanceKm": 33.439
+      },
+      {
+        "name": "Katunayake",
+        "line": "Puttalam Line",
+        "phone": "011-2254353",
+        "distanceKm": 32.447
+      },
+      {
+        "name": "Trade Zoone",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 32.33
+      },
+      {
+        "name": "Kurana",
+        "line": "Puttalam Line",
+        "phone": "031-3616712",
+        "distanceKm": 35.31
+      },
+      {
+        "name": "Negombo",
+        "line": "Puttalam Line",
+        "phone": "031-2222271",
+        "distanceKm": 38.85
+      },
+      {
+        "name": "kattuwa",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 42.138
+      },
+      {
+        "name": "Kochchikade",
+        "line": "Puttalam Line",
+        "phone": "031-2277271",
+        "distanceKm": 45.048
+      },
+      {
+        "name": "Waikkala",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 46.645
+      },
+      {
+        "name": "Bolawatte",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 48.879
+      },
+      {
+        "name": "Borelessa",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 51.377
+      },
+      {
+        "name": "Lunuwila",
+        "line": "Puttalam Line",
+        "phone": "031-2255271",
+        "distanceKm": 54.354
+      },
+      {
+        "name": "Tummodara",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 59.321
+      },
+      {
+        "name": "Nattandiya",
+        "line": "Puttalam Line",
+        "phone": "032-2254271",
+        "distanceKm": 62.196
+      },
+      {
+        "name": "Walahapitiya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 65.157
+      },
+      {
+        "name": "Kudawewa",
+        "line": "Puttalam Line",
+        "phone": "032-3290525",
+        "distanceKm": 67.781
+      },
+      {
+        "name": "Nelumpokuna",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 70.691
+      },
+      {
+        "name": "Madampe",
+        "line": "Puttalam Line",
+        "phone": "032-3247671",
+        "distanceKm": 71.996
+      },
+      {
+        "name": "Kakkapalliya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 76.422
+      },
+      {
+        "name": "Sawarana",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 79.658
+      },
+      {
+        "name": "Chilaw",
+        "line": "Puttalam Line",
+        "phone": "032-2222271",
+        "distanceKm": 82.462
+      },
+      {
+        "name": "Manuwangama",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 88.84
+      },
+      {
+        "name": "Bangadeniya",
+        "line": "Puttalam Line",
+        "phone": "032-2259570",
+        "distanceKm": 91.693
+      },
+      {
+        "name": "Arachchikattuwa",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 96.18
+      },
+      {
+        "name": "Anawilundawa",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 99.7
+      },
+      {
+        "name": "Battaluoya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 101.926
+      },
+      {
+        "name": "Pulachchikulam",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 105.318
+      },
+      {
+        "name": "Mundal",
+        "line": "Puttalam Line",
+        "phone": "032-3290526",
+        "distanceKm": 109.771
+      },
+      {
+        "name": "Mangalaeliya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 116.727
+      },
+      {
+        "name": "Madurankuliya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 121.671
+      },
+      {
+        "name": "Erukkalam pendu",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 128.9
+      },
+      {
+        "name": "Palavi",
+        "line": "Puttalam Line",
+        "phone": "032-2269371",
+        "distanceKm": 130.465
+      },
+      {
+        "name": "Thilladiya",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 132.264
+      },
+      {
+        "name": "Puttalam",
+        "line": "Puttalam Line",
+        "phone": "032-2265271",
+        "distanceKm": 135.119
+      },
+      {
+        "name": "Noor Nagar",
+        "line": "Puttalam Line",
+        "phone": "032-3292582",
+        "distanceKm": 139.095
+      },
+      {
+        "name": "Karadipuwar",
+        "line": "Puttalam Line",
+        "phone": "032-3325532",
+        "distanceKm": 147.803
+      },
+      {
+        "name": "Periyanagavillu",
+        "line": "Puttalam Line",
+        "phone": null,
+        "distanceKm": 158.596
+      },
+      {
+        "name": "Girambe",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 79.294
+      },
+      {
+        "name": "Talawattegedara",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 81.115
+      },
+      {
+        "name": "Potuhera",
+        "line": "Northern Line",
+        "phone": "037-3989038",
+        "distanceKm": 86.273
+      },
+      {
+        "name": "Nailiya",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 91.674
+      },
+      {
+        "name": "Kurunegala",
+        "line": "Northern Line",
+        "phone": "037-2222271",
+        "distanceKm": 95.272
+      },
+      {
+        "name": "Muththettugala",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 97.753
+      },
+      {
+        "name": "Wellawa",
+        "line": "Northern Line",
+        "phone": "037-3989037",
+        "distanceKm": 105.004
+      },
+      {
+        "name": "Ganewatte",
+        "line": "Northern Line",
+        "phone": "037-3989035",
+        "distanceKm": 116.72
+      },
+      {
+        "name": "Yahapauwa",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 123.461
+      },
+      {
+        "name": "Nagollagama",
+        "line": "Northern Line",
+        "phone": "037-3989036",
+        "distanceKm": 129.049
+      },
+      {
+        "name": "Timbiriyagedara",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 132.928
+      },
+      {
+        "name": "Maho",
+        "line": "Northern Line",
+        "phone": "037-2275271",
+        "distanceKm": 138.585
+      },
+      {
+        "name": "Randenigama",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 141.92
+      },
+      {
+        "name": "Abanpola",
+        "line": "Northern Line",
+        "phone": "025-3891292",
+        "distanceKm": 150.258
+      },
+      {
+        "name": "Galgamuwa",
+        "line": "Northern Line",
+        "phone": "037-2253071",
+        "distanceKm": 160.243
+      },
+      {
+        "name": "Senarathgama",
+        "line": "Northern Line",
+        "phone": "025-3891294",
+        "distanceKm": 170.084
+      },
+      {
+        "name": "Thambuttegama",
+        "line": "Northern Line",
+        "phone": "025-3891293",
+        "distanceKm": 178.96
+      },
+      {
+        "name": "Talawa",
+        "line": "Northern Line",
+        "phone": "025-2276781",
+        "distanceKm": 189.938
+      },
+      {
+        "name": "Srawasthipura",
+        "line": "Northern Line",
+        "phone": "025-3853761",
+        "distanceKm": 198.4
+      },
+      {
+        "name": "Anuradhapura Town",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 202.061
+      },
+      {
+        "name": "Anuradhapura",
+        "line": "Northern Line",
+        "phone": "025-2222271",
+        "distanceKm": 204.944
+      },
+      {
+        "name": "Mihintale Junction",
+        "line": "Northern Line",
+        "phone": "025-2266616",
+        "distanceKm": 206.444
+      },
+      {
+        "name": "Saliyapura",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 210.671
+      },
+      {
+        "name": "Parasangahawewa",
+        "line": "Northern Line",
+        "phone": "025-3891295",
+        "distanceKm": 217.734
+      },
+      {
+        "name": "Medagama",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 221.196
+      },
+      {
+        "name": "Medawachchiya",
+        "line": "Northern Line",
+        "phone": "025-2245671",
+        "distanceKm": 230.916
+      },
+      {
+        "name": "Poonewa",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 237.652
+      },
+      {
+        "name": "Erittaperiyakulam",
+        "line": "Northern Line",
+        "phone": null,
+        "distanceKm": 249.038
+      },
+      {
+        "name": "Vavuniya",
+        "line": "Northern Line",
+        "phone": "024-2222271",
+        "distanceKm": 254.355
+      },
+      {
+        "name": "Mihintale",
+        "line": "Northern Line",
+        "phone": "025-2266616",
+        "distanceKm": 219.944
+      },
+      {
+        "name": "Omantai",
+        "line": "Northern Line",
+        "phone": "025-3777505",
+        "distanceKm": null
+      },
+      {
+        "name": "Puliyankulama",
+        "line": "Northern Line",
+        "phone": "025-3244651",
+        "distanceKm": null
+      },
+      {
+        "name": "Mankulam",
+        "line": "Northern Line",
+        "phone": "025-3244652",
+        "distanceKm": null
+      },
+      {
+        "name": "Murukandi",
+        "line": "Northern Line",
+        "phone": "025-3244558",
+        "distanceKm": null
+      },
+      {
+        "name": "Kilinochchi",
+        "line": "Northern Line",
+        "phone": "025-3244653",
+        "distanceKm": null
+      },
+      {
+        "name": "Paranthan",
+        "line": "Northern Line",
+        "phone": "025-3245523",
+        "distanceKm": null
+      },
+      {
+        "name": "ElephantPass",
+        "line": "Northern Line",
+        "phone": "025-3245524",
+        "distanceKm": null
+      },
+      {
+        "name": "Pallai",
+        "line": "Northern Line",
+        "phone": "025-3245525",
+        "distanceKm": null
+      },
+      {
+        "name": "Kodikamam",
+        "line": "Northern Line",
+        "phone": "025-3246066",
+        "distanceKm": null
+      },
+      {
+        "name": "Chavakachcheri",
+        "line": "Northern Line",
+        "phone": "025-3246067",
+        "distanceKm": null
+      },
+      {
+        "name": "Navatkuli",
+        "line": "Northern Line",
+        "phone": "025-3246068",
+        "distanceKm": null
+      },
+      {
+        "name": "Jaffna",
+        "line": "Northern Line",
+        "phone": "021-2222271",
+        "distanceKm": null
+      },
+      {
+        "name": "Jaffna CSM",
+        "line": "Northern Line",
+        "phone": "021-2222371",
+        "distanceKm": null
+      },
+      {
+        "name": "Jaffna SM",
+        "line": "Northern Line",
+        "phone": "025-3891291",
+        "distanceKm": null
+      },
+      {
+        "name": "Kondavil",
+        "line": "Northern Line",
+        "phone": "024-3201652",
+        "distanceKm": null
+      },
+      {
+        "name": "Chunnakam",
+        "line": "Northern Line",
+        "phone": "021-2244271",
+        "distanceKm": null
+      },
+      {
+        "name": "Kankesanthurei",
+        "line": "Northern Line",
+        "phone": "025-3246526",
+        "distanceKm": null
+      },
+      {
+        "name": "Konwewa",
+        "line": "Batticaloa Line",
+        "phone": "025-3853766",
+        "distanceKm": null
+      },
+      {
+        "name": "Moragollagama",
+        "line": "Batticaloa Line",
+        "phone": "025-3853762",
+        "distanceKm": null
+      },
+      {
+        "name": "kekirawa",
+        "line": "Batticaloa Line",
+        "phone": "025-2264271",
+        "distanceKm": null
+      },
+      {
+        "name": "Kalawewa",
+        "line": "Batticaloa Line",
+        "phone": "025-3853763",
+        "distanceKm": null
+      },
+      {
+        "name": "Palugaswewa",
+        "line": "Batticaloa Line",
+        "phone": "025-3853768",
+        "distanceKm": null
+      },
+      {
+        "name": "Gal Oya Junction",
+        "line": "Batticaloa Line",
+        "phone": "027-3279375",
+        "distanceKm": null
+      },
+      {
+        "name": "Higurakgoda",
+        "line": "Batticaloa Line",
+        "phone": "027-2246271",
+        "distanceKm": null
+      },
+      {
+        "name": "Polonnaruwa",
+        "line": "Batticaloa Line",
+        "phone": "027-2222271",
+        "distanceKm": null
+      },
+      {
+        "name": "Manampitiya",
+        "line": "Batticaloa Line",
+        "phone": "027-2051006",
+        "distanceKm": null
+      },
+      {
+        "name": "Welikanda",
+        "line": "Batticaloa Line",
+        "phone": "025-3853764",
+        "distanceKm": null
+      },
+      {
+        "name": "Punani",
+        "line": "Batticaloa Line",
+        "phone": "025-3898447",
+        "distanceKm": null
+      },
+      {
+        "name": "Valachchenai",
+        "line": "Batticaloa Line",
+        "phone": "065-2257718",
+        "distanceKm": null
+      },
+      {
+        "name": "Eravur",
+        "line": "Batticaloa Line",
+        "phone": "065-2240514",
+        "distanceKm": null
+      },
+      {
+        "name": "Batticaloa",
+        "line": "Batticaloa Line",
+        "phone": "065-2224471",
+        "distanceKm": null
+      },
+      {
+        "name": "Fort",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": null
+      },
+      {
+        "name": "Secretartat Halt",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 0.666
+      },
+      {
+        "name": "Kompnnavidiya",
+        "line": "Coast Line",
+        "phone": "011-2422624",
+        "distanceKm": 1.72
+      },
+      {
+        "name": "Kollupitiya",
+        "line": "Coast Line",
+        "phone": "011-2573229",
+        "distanceKm": 3.108
+      },
+      {
+        "name": "Bambalapitiya",
+        "line": "Coast Line",
+        "phone": "011-2584503",
+        "distanceKm": 5.125
+      },
+      {
+        "name": "wellawatte",
+        "line": "Coast Line",
+        "phone": "011-2585875",
+        "distanceKm": 7.245
+      },
+      {
+        "name": "Dehiwala",
+        "line": "Coast Line",
+        "phone": "011-2713271",
+        "distanceKm": 9.957
+      },
+      {
+        "name": "Mount Laviniya",
+        "line": "Coast Line",
+        "phone": "011-2712271",
+        "distanceKm": 12.211
+      },
+      {
+        "name": "Rathmalana",
+        "line": "Coast Line",
+        "phone": "011-2635271",
+        "distanceKm": 14.01
+      },
+      {
+        "name": "Angulana",
+        "line": "Coast Line",
+        "phone": "011-2605256",
+        "distanceKm": 15.939
+      },
+      {
+        "name": "Lunawa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 17.366
+      },
+      {
+        "name": "Moratuwa",
+        "line": "Coast Line",
+        "phone": "011-2645267",
+        "distanceKm": 18.949
+      },
+      {
+        "name": "Koralawella",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 20.731
+      },
+      {
+        "name": "Egodauyana",
+        "line": "Coast Line",
+        "phone": "011-2657336",
+        "distanceKm": 22.563
+      },
+      {
+        "name": "Panadura",
+        "line": "Coast Line",
+        "phone": "038-2232271",
+        "distanceKm": 26.249
+      },
+      {
+        "name": "Pinwatte",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 29.467
+      },
+      {
+        "name": "Wadduwa",
+        "line": "Coast Line",
+        "phone": "038-2232571",
+        "distanceKm": 32.461
+      },
+      {
+        "name": "Train Halt 01",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 36.052
+      },
+      {
+        "name": "Kalutara North",
+        "line": "Coast Line",
+        "phone": "034-2232272",
+        "distanceKm": 39.868
+      },
+      {
+        "name": "Kaluthara South",
+        "line": "Coast Line",
+        "phone": "034-2222271",
+        "distanceKm": 41.857
+      },
+      {
+        "name": "Katukurunda",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 44.667
+      },
+      {
+        "name": "Payagala North",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 48.04
+      },
+      {
+        "name": "Payagala south",
+        "line": "Coast Line",
+        "phone": "034-2233760",
+        "distanceKm": 49.256
+      },
+      {
+        "name": "Maggona",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 51.151
+      },
+      {
+        "name": "Beruwala",
+        "line": "Coast Line",
+        "phone": "034-2276371",
+        "distanceKm": 54.326
+      },
+      {
+        "name": "Hettimulla",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 56.507
+      },
+      {
+        "name": "Aluthgama",
+        "line": "Coast Line",
+        "phone": "034-2275282",
+        "distanceKm": 59.661
+      },
+      {
+        "name": "Bentota",
+        "line": "Coast Line",
+        "phone": "034-2275271",
+        "distanceKm": 60.958
+      },
+      {
+        "name": "Induruwa",
+        "line": "Coast Line",
+        "phone": "034-2275500",
+        "distanceKm": 64.939
+      },
+      {
+        "name": "Mha Induruwa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 67.629
+      },
+      {
+        "name": "kosgoda",
+        "line": "Coast Line",
+        "phone": "091-2264071",
+        "distanceKm": 71.067
+      },
+      {
+        "name": "Piyagama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 72.516
+      },
+      {
+        "name": "Ahungalle",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 73.984
+      },
+      {
+        "name": "Patagamgoda",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 76.1
+      },
+      {
+        "name": "Balapitiya",
+        "line": "Coast Line",
+        "phone": "091-2258446",
+        "distanceKm": 78.205
+      },
+      {
+        "name": "Andadola",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 79.73
+      },
+      {
+        "name": "Kandegoda",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 81.456
+      },
+      {
+        "name": "Ambalangoda",
+        "line": "Coast Line",
+        "phone": "091-2258271",
+        "distanceKm": 83.127
+      },
+      {
+        "name": "Madampagama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 85.859
+      },
+      {
+        "name": "Akurala",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 87.82
+      },
+      {
+        "name": "Kahawa",
+        "line": "Coast Line",
+        "phone": "091-2258371",
+        "distanceKm": 89.292
+      },
+      {
+        "name": "Telwatte",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 91.967
+      },
+      {
+        "name": "Seenigama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 92.72
+      },
+      {
+        "name": "Hikkaduwa",
+        "line": "Coast Line",
+        "phone": "091-2277271",
+        "distanceKm": 95.128
+      },
+      {
+        "name": "Thiranagama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 97.876
+      },
+      {
+        "name": "Kumarakanda",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 99.596
+      },
+      {
+        "name": "Dodanduwa",
+        "line": "Coast Line",
+        "phone": "091-2264279",
+        "distanceKm": 101.525
+      },
+      {
+        "name": "Rathgama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 102.55
+      },
+      {
+        "name": "Boossa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 105.738
+      },
+      {
+        "name": "Ginthota",
+        "line": "Coast Line",
+        "phone": "091-2234272",
+        "distanceKm": 108.301
+      },
+      {
+        "name": "Piyadigama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 109.975
+      },
+      {
+        "name": "Richmond Hill",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 111.407
+      },
+      {
+        "name": "Galle",
+        "line": "Coast Line",
+        "phone": "091-2234945",
+        "distanceKm": 113.88
+      },
+      {
+        "name": "Katugoda",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 118.269
+      },
+      {
+        "name": "Unawatuna",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 119.519
+      },
+      {
+        "name": "Taple",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 124.339
+      },
+      {
+        "name": "Habaraduwa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 127.383
+      },
+      {
+        "name": "Koggala",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 129.1
+      },
+      {
+        "name": "Kathaluwa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 131.285
+      },
+      {
+        "name": "Ahangama",
+        "line": "Coast Line",
+        "phone": "091-2283271",
+        "distanceKm": 134.159
+      },
+      {
+        "name": "Midigama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 137.657
+      },
+      {
+        "name": "Kumbalgama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 139.196
+      },
+      {
+        "name": "weligama",
+        "line": "Coast Line",
+        "phone": "041-2250271",
+        "distanceKm": 142.824
+      },
+      {
+        "name": "Polwathumodara",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 146.248
+      },
+      {
+        "name": "Mirissa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 147.556
+      },
+      {
+        "name": "Kamburugamuwa",
+        "line": "Coast Line",
+        "phone": "041-2222671",
+        "distanceKm": 151.353
+      },
+      {
+        "name": "Walgama",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 154.1
+      },
+      {
+        "name": "Matara",
+        "line": "Coast Line",
+        "phone": "041-2222271",
+        "distanceKm": 156.813
+      },
+      {
+        "name": "Piliduwa",
+        "line": "Coast Line",
+        "phone": null,
+        "distanceKm": 158.1
+      },
+      {
+        "name": "Baseline Road",
+        "line": "Kelani Valley Line",
+        "phone": "011-3071057",
+        "distanceKm": 3.784
+      },
+      {
+        "name": "Cotta Road",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 5.445
+      },
+      {
+        "name": "Narahenpita",
+        "line": "Kelani Valley Line",
+        "phone": "011-2582270",
+        "distanceKm": 7.515
+      },
+      {
+        "name": "Kirulapone",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 9.263
+      },
+      {
+        "name": "Nugegoda",
+        "line": "Kelani Valley Line",
+        "phone": "011-2852626",
+        "distanceKm": 11.045
+      },
+      {
+        "name": "Udhamulla",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 13.421
+      },
+      {
+        "name": "Nawinna",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 15.191
+      },
+      {
+        "name": "maharagama",
+        "line": "Kelani Valley Line",
+        "phone": "011-2843100",
+        "distanceKm": 16.36
+      },
+      {
+        "name": "Pannipitiya",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 19.012
+      },
+      {
+        "name": "Kottawa",
+        "line": "Kelani Valley Line",
+        "phone": "011-2843494",
+        "distanceKm": 21.31
+      },
+      {
+        "name": "Malapalle",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 22.498
+      },
+      {
+        "name": "Homagama Hospital",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 24.3
+      },
+      {
+        "name": "Homagama",
+        "line": "Kelani Valley Line",
+        "phone": "011-2855290",
+        "distanceKm": 26.51
+      },
+      {
+        "name": "Panagoda",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 28.285
+      },
+      {
+        "name": "Godagama",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 30.117
+      },
+      {
+        "name": "Meegoda",
+        "line": "Kelani Valley Line",
+        "phone": "011-3154561",
+        "distanceKm": 31.643
+      },
+      {
+        "name": "Watareka",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 33.155
+      },
+      {
+        "name": "Padukka",
+        "line": "Kelani Valley Line",
+        "phone": "011-2859026",
+        "distanceKm": 37.184
+      },
+      {
+        "name": "Arukkuwatte",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 38.74
+      },
+      {
+        "name": "Angampitiya",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 39.82
+      },
+      {
+        "name": "Uggalla",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 40.76
+      },
+      {
+        "name": "Pinnawala",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 42.069
+      },
+      {
+        "name": "Gammana",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 43.1
+      },
+      {
+        "name": "Morakele",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 43.9
+      },
+      {
+        "name": "Waga",
+        "line": "Kelani Valley Line",
+        "phone": "036-2255271",
+        "distanceKm": 46.299
+      },
+      {
+        "name": "Kadugoda",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 48.36
+      },
+      {
+        "name": "Kosgama",
+        "line": "Kelani Valley Line",
+        "phone": "011-3154562",
+        "distanceKm": 51.337
+      },
+      {
+        "name": "puwakpitiya",
+        "line": "Kelani Valley Line",
+        "phone": null,
+        "distanceKm": 57.47
+      },
+      {
+        "name": "Avisawella",
+        "line": "Kelani Valley Line",
+        "phone": "036-2222271",
+        "distanceKm": 61.177
+      },
+      {
+        "name": "Kantale",
+        "line": "Trincomalee Line",
+        "phone": "026-2234271",
+        "distanceKm": 256.381
+      },
+      {
+        "name": "Tambalagamuwa",
+        "line": "Trincomalee Line",
+        "phone": "025-3853765",
+        "distanceKm": null
+      },
+      {
+        "name": "China Bay",
+        "line": "Trincomalee Line",
+        "phone": "025-3858765",
+        "distanceKm": 290.306
+      },
+      {
+        "name": "Trincomalee",
+        "line": "Trincomalee Line",
+        "phone": "026-2222271",
+        "distanceKm": 296.909
+      },
+      {
+        "name": "Cheddikulam",
+        "line": "Talaimannar Line",
+        "phone": "025-3244362",
+        "distanceKm": null
+      },
+      {
+        "name": "Madu Road",
+        "line": "Talaimannar Line",
+        "phone": "025-3244361",
+        "distanceKm": null
+      },
+      {
+        "name": "Murunkan",
+        "line": "Talaimannar Line",
+        "phone": "023-3232236",
+        "distanceKm": null
+      },
+      {
+        "name": "Mannar",
+        "line": "Talaimannar Line",
+        "phone": "023-3232233",
+        "distanceKm": null
+      },
+      {
+        "name": "Pesalai",
+        "line": "Talaimannar Line",
+        "phone": "023-3232234",
+        "distanceKm": null
+      },
+      {
+        "name": "Talaimannar",
+        "line": "Talaimannar Line",
+        "phone": "023-3232237",
+        "distanceKm": null
+      },
+      {
+        "name": "Talaimannar Pier",
+        "line": "Talaimannar Line",
+        "phone": "023-3232238",
+        "distanceKm": null
+      }
+    ],
+    "note": "All 306 source rows represented in 303 records after merging three duplicate Northern Line records. Original source spellings retained. Jaffna CSM and SM contacts are separate records. Missing distances and telephone numbers remain null.",
+    "updated": "2025-01-02"
+  },
+  "faq": {
+    "url": "https://railway.gov.lk/web/index.php?Itemid=187&id=128&lang=en&option=com_content&view=article",
+    "updated": "2011-03-30",
+    "note": "Official FAQ is old; link to source rather than repeat its outdated operational advice."
+  },
+  "fareDocuments": [
+    {
+      "title": "Unreserved second/third class fares",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/fares_unreserved_trains_eng.pdf"
+    },
+    {
+      "title": "Station retiring rooms",
+      "language": "Sinhala",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/retire_room_charge_sin.pdf"
+    },
+    {
+      "title": "Station retiring rooms",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/retire_room_charge_eng.pdf"
+    },
+    {
+      "title": "Train booking fees",
+      "language": "Sinhala",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/train_booing_fees_sin.pdf"
+    },
+    {
+      "title": "Train booking fees",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/train_booking_fees_eng.pdf"
+    },
+    {
+      "title": "Carriage and special train fees",
+      "language": "Sinhala",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/railway_carriage_and_special_train_reservation_fees_sin.pdf"
+    },
+    {
+      "title": "Carriage and special train fees",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/railway_carriage_and_special_train_reservation_fees_eng.pdf"
+    },
+    {
+      "title": "Filming and photography",
+      "language": "Sinhala",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/photographing_sin.pdf"
+    },
+    {
+      "title": "Filming and photography",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/photographing_eng.pdf"
+    },
+    {
+      "title": "Advertising fees",
+      "language": "Sinhala",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/ad_fee_sin.pdf"
+    },
+    {
+      "title": "Advertising fees",
+      "language": "Tamil",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/ad_fee_tam.pdf"
+    },
+    {
+      "title": "Advertising fees",
+      "language": "English",
+      "url": "https://railway.gov.lk/web/images/commercial_notices/ad_fee_eng.pdf"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "title": "Transport Ministry",
+      "url": "https://www.transport.gov.lk/web/index.php?lang=en"
+    },
+    {
+      "title": "Highways Ministry",
+      "url": "https://moth.gov.lk/"
+    },
+    {
+      "title": "Ports & Civil Aviation Ministry",
+      "url": "https://portmin.gov.lk/"
+    },
+    {
+      "title": "Department of Motor Traffic",
+      "url": "https://dmt.gov.lk/index.php?lang=en"
+    },
+    {
+      "title": "National Transport Commission",
+      "url": "https://ntc.gov.lk/"
+    },
+    {
+      "title": "Sri Lanka Transport Board",
+      "url": "https://www.sltb.lk/"
+    },
+    {
+      "title": "National Transport Medical Institute",
+      "url": "https://ntmi.lk/"
+    },
+    {
+      "title": "Lakdiva Engineering",
+      "url": "https://www.transport.gov.lk/web/index.php?Itemid=116&id=16&lang=en&option=com_content&view=category"
+    },
+    {
+      "title": "National Council for Road Safety",
+      "url": "https://www.roadsafety.gov.lk/index.php/en/"
+    }
+  ]
+}
