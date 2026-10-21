@@ -4100,7 +4100,7 @@ body {
 }
 
 body:has(.hero-stage) .site-header {
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 15px;
     transform: translateX(-50%);
