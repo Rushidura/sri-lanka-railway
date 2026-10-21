@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "../vendor/shadcn-tailwind-4.13.0.css";
@@ -29,8 +29,8 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: 'DM Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif;
+    font-size: 15px;
     -webkit-font-smoothing: antialiased
 }
 
@@ -215,7 +215,7 @@ select:focus-visible {
     align-items: center;
     gap: 8px;
     color: #69776c;
-    font: 700 9px 'DM Sans', sans-serif;
+    font: 700 10px Manrope, 'Noto Sans Sinhala', sans-serif;
     letter-spacing: .15em
 }
 
@@ -420,7 +420,7 @@ select:focus-visible {
 }
 
 .caption-title>span {
-    font: 20px 'DM Sans', sans-serif;
+    font: 20px Manrope, 'Noto Sans Sinhala', sans-serif;
     color: #d2b66e;
     margin: 0 7px
 }
@@ -528,7 +528,7 @@ select:focus-visible {
     border: 0;
     background: transparent;
     color: #263d32;
-    font: 600 11px 'DM Sans', sans-serif;
+    font: 600 12px Manrope, 'Noto Sans Sinhala', sans-serif;
     min-width: 0;
     outline: none
 }
@@ -3868,7 +3868,7 @@ body {
 .main-nav a,
 .language-menu>summary,
 .mobile-nav a {
-    font-family: 'DM Sans', Arial, sans-serif
+    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif
 }
 
 @media(max-width:860px) {
@@ -4083,5 +4083,92 @@ body:has(.hero-stage) .site-header {
 @media(max-width:700px) {
     body:has(.hero-stage) .site-header {
         top: 10px
+    }
+}
+
+/* Clearer, consistent type sizing across the railway site. */
+body {
+    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.65
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif
+}
+
+.main-nav a,
+.mobile-nav a {
+    font-size: 13px
+}
+
+.eyebrow {
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: .11em
+}
+
+.hero-copy>p,
+.simple-hero>p,
+.page-hero-copy>p,
+.story-copy>p,
+.updates-inner>div:first-child>p,
+.update-card>p,
+.home-service-card>p,
+.seamless-copy>p,
+.discover-content>p,
+.about-hero p,
+.about-active-content>p,
+.info-card>p {
+    font-size: 14px;
+    line-height: 1.75
+}
+
+.footer-col a,
+.route-info p,
+.source-note,
+.info-card small {
+    font-size: 12px
+}
+
+@media(max-width:700px) {
+    body {
+        font-size: 14px
+    }
+
+    .main-nav a,
+    .mobile-nav a {
+        font-size: 12px
+    }
+
+    .eyebrow,
+    .hero-copy .eyebrow,
+    .discover-content .eyebrow {
+        font-size: 8px
+    }
+
+    .hero-copy>p,
+    .simple-hero>p,
+    .page-hero-copy>p,
+    .story-copy>p,
+    .updates-inner>div:first-child>p,
+    .update-card>p,
+    .home-service-card>p,
+    .seamless-copy>p,
+    .discover-content>p,
+    .about-hero p,
+    .about-active-content>p,
+    .info-card>p {
+        font-size: 12px
+    }
+
+    .footer-col a,
+    .route-info p,
+    .source-note,
+    .info-card small {
+        font-size: 11px
     }
 }
