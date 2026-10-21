@@ -473,7 +473,9 @@ select:focus-visible {
 .booking-card {
     background: #fff;
     box-shadow: 0 12px 38px #183d2610;
-    border: 1px solid #e9e6de
+    border: 1px solid #e9e6de;
+    border-radius: 10px !important;
+
 }
 
 .booking-tabs {
@@ -680,14 +682,28 @@ select:focus-visible {
 }
 
 .route-card {
-    display: block
+    display: block;
+    background: #d9e4f779;
+    border: 1px solid #e4e1d7;
+    border-radius: 10px;
+    transition: background-color .22s ease, transform .22s ease, box-shadow .22s ease
+
+}
+
+.route-card:hover {
+    background: #F2F5FA;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(51, 85, 155, .2)
 }
 
 .route-image {
     position: relative;
     height: 260px;
     overflow: hidden;
-    background: #8da088
+    /* background: #8da088; */
+    border-radius: 10px  10px 0 0;
+    /* padding: 1px; */
+
 }
 
 .route-image>img {
@@ -721,7 +737,7 @@ select:focus-visible {
 }
 
 .route-info {
-    padding: 18px 2px 0
+    padding: 18px 10px 20px
 }
 
 .route-info h3 {
@@ -2583,7 +2599,8 @@ details.mobile-menu[open] .mobile-nav {
 .search-shortcuts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px
+    gap: 12px;
+    
 }
 
 .search-shortcut {
@@ -2594,7 +2611,9 @@ details.mobile-menu[open] .mobile-nav {
     padding: 15px 17px;
     border: 1px solid var(--line);
     background: #fff;
-    transition: transform .2s, border-color .2s, box-shadow .2s
+    transition: transform .2s, border-color .2s, box-shadow .2s;
+    border-radius: 10px !important;
+
 }
 
 .search-shortcut:hover {
@@ -2644,6 +2663,7 @@ details.mobile-menu[open] .mobile-nav {
 }
 
 .home-service-card {
+    border-radius: 16px;
     min-height: 195px;
     padding: 20px 19px;
     border: 1px solid var(--line);
@@ -2736,9 +2756,9 @@ details.mobile-menu[open] .mobile-nav {
     display: flex;
     align-items: center;
     gap: 13px;
-    padding: 16px 4px;
+    padding: 16px 40px;
     border-bottom: 1px solid #ced3c8;
-    color: #687962
+    color: #687962;
 }
 
 .seamless-links>a>span {
@@ -3652,7 +3672,10 @@ body {
 .search-button,
 .about-end {
     background: rgba(51, 85, 155, .42);
-    color: #fff
+    border-radius: 10px !important;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 30px;
 }
 
 .button-outline {
@@ -4297,14 +4320,14 @@ textarea {
 /* Matched calls to action: Find trains and Reserve a seat share one railway blue. */
 .search-button,
 .last-call .button-dark {
-    background-color: rgba(51, 85, 155, .42);
+    background-color: rgba(51, 86, 155, 0.788);
     color: #fff;
     transition: background-color .22s ease, transform .22s ease, box-shadow .22s ease
 }
 
 .search-button:hover,
 .last-call .button-dark:hover {
-    background-color: rgba(51, 85, 155, .58);
+    background-color: rgb(58, 51, 155);
     transform: translateY(-2px);
     box-shadow: 0 8px 18px rgba(51, 85, 155, .2)
 }
@@ -4326,4 +4349,53 @@ textarea {
     .last-call .button-dark:hover { transform: none }
     .search-button:hover svg,
     .last-call .button-dark:hover svg { transform: none }
+}
+
+/* Float the journey search across the bottom edge of the home hero. */
+.hero-booking-panel {
+    position: relative;
+    z-index: 5;
+    margin-top: -112px;
+    padding-bottom: 68px
+}
+
+.hero-booking-panel .booking-wrap {
+    margin-top: 0
+}
+
+.hero-caption { bottom: 205px }
+.hero-controls { bottom: 195px }
+.home-hero .hero-bottom-note { display: none }
+
+.booking-head .eyebrow { font-size: 10px }
+.booking-head a { font-size: 12px }
+.booking-tabs button { font-size: 13px }
+.booking-fields label > span { font-size: 10px }
+.booking-fields select,
+.booking-fields input { font-size: 14px }
+.search-button { font-size: 13px; letter-spacing: 0 }
+.booking-footnote { font-size: 10px }
+
+@media (max-width: 700px) {
+    .hero-booking-panel {
+        margin-top: -34px;
+        padding-bottom: 40px
+    }
+
+    .hero-caption { bottom: 62px }
+    .hero-controls { bottom: 58px }
+
+    .booking-head { padding: 8px 12px }
+    .booking-head .eyebrow { font-size: 9px }
+    .booking-head a { font-size: 11px }
+    .booking-tabs button { font-size: 12px }
+    .booking-fields label > span { font-size: 9px }
+    .booking-fields select,
+    .booking-fields input { font-size: 13px }
+    .search-button { font-size: 12px }
+    .booking-footnote { font-size: 9px }
+}
+.span{
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #5278b0;
 }
