@@ -4856,3 +4856,34 @@ html {
         font-size: 14px;
     }
 }
+
+/* Give the About page closing callout room to breathe. */
+.about-end {
+    width: 75%;
+    max-width: 1280px;
+    min-height: 112px;
+    margin: 42px auto 30px;
+    padding: 26px 0;
+    border-radius: 12px;
+}
+
+.about-end > .wrap {
+    width: 100%;
+    max-width: none;
+    padding-inline: 30px;
+}
+
+@media (max-width: 760px) {
+    .about-end {
+        width: calc(100% - 32px);
+        min-height: 0;
+        margin: 28px auto 22px;
+        padding: 22px 0;
+    }
+
+    .about-end > .wrap {
+        padding-inline: 20px;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+}
