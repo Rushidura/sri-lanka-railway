@@ -4895,3 +4895,82 @@ html {
     font-weight: 600;
     line-height: 1.35;
 }
+
+/* Use one clear UI font across Services, Passenger Info, Stations and Notices. */
+.service-row h2,
+.info-grid .info-card h2,
+.notice-row h2 {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+
+.service-row h2,
+.notice-row h2 {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.service-row p,
+.notice-row p {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.station-row {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.station-row strong {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.station-table-head {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.station-controls label input,
+.station-controls select {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.station-controls > span,
+.source-note,
+.source-note > a {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.notice-intro strong,
+.notice-intro p,
+.help-line strong,
+.help-line p,
+.help-line > a,
+.service-note p {
+    font-family: Inter, Arial, sans-serif;
+}
+
+@media (max-width: 700px) {
+    .station-row,
+    .station-row > span {
+        font-size: 13px;
+    }
+
+    .station-row strong {
+        font-size: 14px;
+    }
+
+    .station-controls label input,
+    .station-controls select {
+        font-size: 13px;
+    }
+}
