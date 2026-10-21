@@ -154,6 +154,6 @@ export function AboutExplorer() {
       </article>
     </section>
     <section className="discover-banner about-discover" data-reveal><Image src="/images/Sunrise%20Train%20Over%20Misty%20Viaduct.png" alt="Sunrise over a railway viaduct in Sri Lanka" fill sizes="100vw" /><div className="discover-overlay" /><div className="discover-content"><span className="eyebrow"><span className="gold-dot" /> DISCOVER</span><h2>See more of the island<br />from the <em>window seat.</em></h2><p>Plan a route through the landscapes and communities that make Sri Lanka special.</p><Link className="button button-light" href="/schedule">Explore railway journeys <ArrowUpRight size={15} /></Link></div></section>
-    <section className="about-end"><div className="wrap"><TrainFront size={24} /><p>Explore the railway network, passenger services and travel information.</p><Link className="button button-light" href="/stations">Find a station <ArrowUpRight size={15} /></Link></div></section>
+    <section className="about-end"><div className="wrap"><TrainFront size={24} /><p>Plan your journey across Sri Lanka with route details, station information, and helpful travel guidance.</p><Link className="button button-light" href="/stations">Find a station <ArrowUpRight size={15} /></Link></div></section>
   </>;
 }
