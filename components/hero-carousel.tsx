@@ -36,10 +36,12 @@ export function HeroCarousel() {
                             <Link className="hero-text-link" href="/about">Meet the railway <ArrowUpRight size={15} /></Link>
                         </div>
                     </div>
+                    
                     <div className="hero-caption">
                         <span>{slide.route}</span>
                         <small>{slide.place}</small>
                     </div>
+                    
                     <div className="hero-controls">
                         <button aria-label="Previous landscape" onClick={() => setIndex(i => (i + slides.length - 1) % slides.length)}><ArrowLeft size={14} /></button>
                         {/* <span>{String(index + 1).padStart(2, "0")} <i /> {String(slides.length).padStart(2, "0")}</span> */}

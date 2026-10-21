@@ -482,6 +482,7 @@ select:focus-visible {
 
 .booking-tabs button {
     height: 100%;
+    display: hidden;
     border: 0;
     border-bottom: 2px solid transparent;
     /* background: transparent; */
@@ -4361,25 +4362,22 @@ textarea {
     margin-top: 0
 }
 
-.hero-booking-panel.is-docked .wrap {
-    position: fixed;
-    z-index: 40;
-    top: 14px;
-    left: 50%;
-    width: min(1250px, 90%);
-    transform: translateX(-50%);
-    animation: booking-dock-in .24s ease-out both
+.hero-booking-panel:not(.is-visible) .booking-cards {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(18px);
+    pointer-events: none
 }
 
-.hero-booking-panel.is-docked .booking-card,
-.hero-booking-panel.is-docked .booking-head {
-    background: #fff;
-    box-shadow: 0 14px 42px rgba(25, 45, 70, .2)
+.hero-booking-panel.is-visible .booking-cards {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto
 }
 
-@keyframes booking-dock-in {
-    from { opacity: 0; translate: 0 -10px }
-    to { opacity: 1; translate: 0 0 }
+.hero-booking-panel .booking-cards {
+    transition: opacity .4s ease, transform .4s ease, visibility .4s ease
 }
 
 .hero-caption { bottom: 205px }
@@ -4402,13 +4400,6 @@ textarea {
         padding-bottom: 40px
     }
 
-    .hero-booking-panel.is-docked .wrap {
-        top: 8px;
-        width: 96%;
-        max-height: calc(100vh - 16px);
-        overflow: auto
-    }
-
     .hero-caption { bottom: 62px }
     .hero-controls { bottom: 58px }
 
@@ -4424,7 +4415,7 @@ textarea {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .hero-booking-panel.is-docked .wrap { animation: none }
+    .hero-booking-panel .booking-cards { transition: none }
 }
 .span{
     font-family: 'Playfair Display', Georgia, serif;

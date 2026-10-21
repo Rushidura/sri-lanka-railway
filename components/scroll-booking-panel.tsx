@@ -1,31 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export function ScrollBookingPanel({ children }: { children: React.ReactNode }) {
-  const panelRef = useRef<HTMLElement>(null);
-  const lastScrollY = useRef(0);
-  const [docked, setDocked] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    lastScrollY.current = window.scrollY;
+    const revealAfter = 64;
+    setVisible(window.scrollY > revealAfter);
 
     const handleScroll = () => {
-      const currentY = window.scrollY;
-      const panel = panelRef.current;
-      if (!panel) return;
-
-      const panelBottom = panel.getBoundingClientRect().bottom + currentY;
-      const scrollingDown = currentY > lastScrollY.current + 2;
-      const scrollingUp = currentY < lastScrollY.current - 2;
-
-      if (currentY < panelBottom || scrollingUp) {
-        setDocked(false);
-      } else if (scrollingDown) {
-        setDocked(true);
-      }
-
-      lastScrollY.current = currentY;
+      setVisible(window.scrollY > revealAfter);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -34,8 +19,8 @@ export function ScrollBookingPanel({ children }: { children: React.ReactNode }) 
 
   return (
     <section
-      ref={panelRef}
-      className={`hero-booking-panel${docked ? " is-docked" : ""}`}
+      className={`hero-booking-panel${visible ? " is-visible" : ""}`}
+      aria-hidden={!visible}
       aria-label="Search your train journey"
     >
       <div className="wrap">{children}</div>
