@@ -4739,3 +4739,43 @@ textarea {
     .about-network-lines span,
     .about-structure-chips span { font-size: 12px }
 }
+
+/* Clearer About navigation and a stronger sans-serif hierarchy for its content. */
+.about-sidebar > .eyebrow {
+    font-size: 11px;
+}
+
+.about-sidebar > button {
+    padding: 13px 11px;
+    font: 500 14px/1.45 Inter, Arial, sans-serif;
+}
+
+.about-active-content h2,
+.about-active-content .about-subheading,
+.about-active-content .about-history-item h3,
+.about-active-content .about-organization-grid .about-subheading {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.about-active-content h2 {
+    letter-spacing: -.035em;
+}
+
+.about-layout .about-active-content > p,
+.about-history-item p {
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    .about-sidebar > button {
+        padding: 11px 10px;
+        font-size: 12px;
+    }
+
+    .about-layout .about-active-content > p,
+    .about-history-item p {
+        font-size: 14px;
+    }
+}
