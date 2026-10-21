@@ -3651,7 +3651,7 @@ body {
 .nav-cta,
 .search-button,
 .about-end {
-    background: #33559b;
+    background: rgba(51, 85, 155, .42);
     color: #fff
 }
 
@@ -4238,5 +4238,58 @@ textarea {
     font-weight: 600;
     line-height: 1;
     text-shadow: none;
-    box-shadow: 0 4px 14px #152d5a55
+    box-shadow: 0 4px 14px #152d5a55;
+    border: 1px solid rgba(255, 255, 255, .72);
+    backdrop-filter: blur(12px) saturate(160%);
+    -webkit-backdrop-filter: blur(12px) saturate(160%)
+}
+
+/* Glass surfaces: blur stays behind UI so labels remain crisp and readable. */
+.site-header,
+.nav-search,
+.language-options,
+.mobile-nav,
+.hero-controls button,
+.hero-controls span,
+.booking-head,
+.booking-card,
+.search-shortcut,
+.home-service-card,
+.route-open,
+.about-sidebar,
+.notice-row,
+.seamless-links > a {
+    -webkit-backdrop-filter: blur(14px) saturate(145%);
+    backdrop-filter: blur(14px) saturate(145%)
+}
+
+.nav-search { background: rgba(255, 255, 255, .78) }
+.booking-head { background: rgba(255, 255, 255, .72) }
+.booking-card { background: rgba(255, 255, 255, .84) }
+.search-shortcut,
+.home-service-card,
+.about-sidebar,
+.notice-row,
+.seamless-links > a { background: rgba(255, 255, 255, .72) }
+.route-open {
+    background: rgba(255, 255, 255, .78);
+    border: 1px solid rgba(255, 255, 255, .72)
+}
+.hero-controls button,
+.hero-controls span {
+    background-color: rgba(14, 32, 60, .38);
+    border-color: rgba(255, 255, 255, .58)
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .nav-search, .booking-head, .booking-card, .search-shortcut,
+    .home-service-card, .about-sidebar, .notice-row,
+    .seamless-links > a, .route-open { background-color: #fff }
+    .route-index { background-color: #33559b }
+}
+.route-index {
+    background: rgba(51, 85, 155, .42);
+    border: 1px solid rgba(255, 255, 255, .72);
+    backdrop-filter: blur(12px) saturate(160%);
+    -webkit-backdrop-filter: blur(12px) saturate(160%)
 }
