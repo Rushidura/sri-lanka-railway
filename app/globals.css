@@ -4453,3 +4453,206 @@ textarea {
     font-family: 'Playfair Display', Georgia, serif;
     color: #5278b0;
 }
+
+/* Richer About page content: historical milestones, leadership and the rail map. */
+.about-subheading {
+    margin: 28px 0 14px;
+    color: #23334b;
+    font: 400 21px/1.25 'Playfair Display', Georgia, serif;
+}
+
+.about-fact-grid,
+.about-network-lines {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+    margin-top: 16px;
+}
+
+.about-fact-grid span,
+.about-network-lines span,
+.about-structure-chips span {
+    display: flex;
+    align-items: center;
+    min-height: 46px;
+    padding: 10px 13px;
+    border: 1px solid #dfe5ed;
+    background: #f7f9fc;
+    color: #314d78;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.about-history-list {
+    display: grid;
+    gap: 26px;
+    margin-top: 24px;
+}
+
+.about-history-item {
+    display: grid;
+    grid-template-columns: minmax(150px, 34%) minmax(0, 1fr);
+    align-items: start;
+    gap: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #dfe5ed;
+}
+
+.about-history-item:last-child { border-bottom: 0; padding-bottom: 0 }
+
+.about-history-image {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #e8edf3;
+}
+
+.about-history-image img,
+.about-person-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-history-item h3 {
+    margin: 0 0 10px;
+    color: #345a9b;
+    font: 400 20px/1.25 'Playfair Display', Georgia, serif;
+}
+
+.about-history-item p,
+.about-officials > section > p,
+.about-layout .about-active-content > p {
+    color: #5e6d80;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.about-history-item p { margin: 0 0 10px }
+
+.about-purpose-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.about-purpose-grid section {
+    padding: 22px;
+    border-left: 3px solid #c19d5a;
+    background: #f2f5fa;
+}
+
+.about-purpose-grid section > span {
+    color: #36599a;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .16em;
+}
+
+.about-purpose-grid p {
+    margin: 11px 0 0;
+    color: #31425e;
+    font: 400 17px/1.55 'Playfair Display', Georgia, serif;
+}
+
+.about-people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.about-person {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    gap: 13px;
+    padding: 11px;
+    border: 1px solid #dfe5ed;
+    background: #fff;
+}
+
+.about-person-image,
+.about-person-initials {
+    display: grid;
+    flex: 0 0 62px;
+    width: 62px;
+    height: 70px;
+    place-items: center;
+    overflow: hidden;
+    background: #edf2f9;
+    color: #345a9b;
+    font: 400 19px 'Playfair Display', Georgia, serif;
+}
+
+.about-person h4 {
+    margin: 0 0 5px;
+    color: #253954;
+    font: 500 12px/1.45 Inter, Arial, sans-serif;
+}
+
+.about-person p {
+    margin: 0;
+    color: #64748b;
+    font-size: 10px;
+    line-height: 1.55;
+}
+
+.about-structure-chips {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.about-organization-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.about-organization-grid section {
+    padding: 17px 18px;
+    border: 1px solid #dfe5ed;
+    background: #fff;
+}
+
+.about-organization-grid .about-subheading { margin: 0 0 13px }
+
+.about-organization-grid ol {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding-left: 21px;
+    color: #5e6d80;
+    font-size: 11px;
+    line-height: 1.55;
+}
+
+.about-network-image {
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid #dfe5ed;
+    background: #fff;
+}
+
+.about-network-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-network-lines { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 16px 0 20px }
+
+@media (max-width: 700px) {
+    .about-history-item { grid-template-columns: 1fr; gap: 13px }
+    .about-history-image { aspect-ratio: 16 / 9 }
+    .about-purpose-grid,
+    .about-people-grid,
+    .about-organization-grid { grid-template-columns: 1fr }
+    .about-fact-grid,
+    .about-network-lines,
+    .about-structure-chips { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+}
