@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "../vendor/shadcn-tailwind-4.13.0.css";
@@ -29,7 +29,7 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
     font-size: 15px;
     -webkit-font-smoothing: antialiased
 }
@@ -150,7 +150,7 @@ select:focus-visible {
 }
 
 .brand-text {
-    font: 700 12px Manrope, sans-serif;
+    font: 700 12px Inter, sans-serif;
     letter-spacing: .11em;
     line-height: 1.2
 }
@@ -215,7 +215,7 @@ select:focus-visible {
     align-items: center;
     gap: 8px;
     color: #69776c;
-    font: 700 10px Manrope, 'Noto Sans Sinhala', sans-serif;
+    font: 700 10px Inter, sans-serif;
     letter-spacing: .15em
 }
 
@@ -236,7 +236,7 @@ select:focus-visible {
 .hero h1,
 .page-hero h1,
 .simple-hero h1 {
-    font: 400 clamp(50px, 5.8vw, 76px)/1.04 'DM Serif Display', Georgia, serif;
+    font: 400 clamp(50px, 5.8vw, 76px)/1.04 'Playfair Display', Georgia, serif;
     letter-spacing: -2.7px;
     margin: 28px 0 20px;
     color: #17392f
@@ -409,18 +409,18 @@ select:focus-visible {
 }
 
 .caption-script {
-    font: italic 20px 'DM Serif Display', Georgia, serif;
+    font: italic 20px 'Playfair Display', Georgia, serif;
     color: #e6dcbd
 }
 
 .caption-title {
-    font: 400 38px 'DM Serif Display', Georgia, serif;
+    font: 400 38px 'Playfair Display', Georgia, serif;
     letter-spacing: -.5px;
     margin-top: 9px
 }
 
 .caption-title>span {
-    font: 20px Manrope, 'Noto Sans Sinhala', sans-serif;
+    font: 20px Inter, sans-serif;
     color: #d2b66e;
     margin: 0 7px
 }
@@ -528,7 +528,7 @@ select:focus-visible {
     border: 0;
     background: transparent;
     color: #263d32;
-    font: 600 12px Manrope, 'Noto Sans Sinhala', sans-serif;
+    font: 600 12px Inter, sans-serif;
     min-width: 0;
     outline: none
 }
@@ -659,7 +659,7 @@ select:focus-visible {
 .section-heading h2,
 .story-copy h2,
 .updates h2 {
-    font: 400 43px/1.13 'DM Serif Display', Georgia, serif;
+    font: 400 43px/1.13 'Playfair Display', Georgia, serif;
     letter-spacing: -.8px;
     margin: 16px 0;
     color: #17392f
@@ -698,7 +698,7 @@ select:focus-visible {
     position: absolute;
     top: 14px;
     left: 15px;
-    font: italic 19px 'DM Serif Display';
+    font: italic 19px 'Playfair Display';
     color: #fff;
     text-shadow: 0 1px 8px #0008
 }
@@ -721,7 +721,7 @@ select:focus-visible {
 }
 
 .route-info h3 {
-    font: 400 22px 'DM Serif Display', Georgia, serif;
+    font: 400 22px 'Playfair Display', Georgia, serif;
     margin: 9px 0 12px
 }
 
@@ -791,7 +791,7 @@ select:focus-visible {
 }
 
 .story-stats strong {
-    font: 400 19px 'DM Serif Display', Georgia, serif
+    font: 400 19px 'Playfair Display', Georgia, serif
 }
 
 .story-stats span {
@@ -852,7 +852,7 @@ select:focus-visible {
 .update-card h3 {
     position: relative;
     z-index: 1;
-    font: 400 27px 'DM Serif Display', Georgia, serif;
+    font: 400 27px 'Playfair Display', Georgia, serif;
     max-width: 400px;
     margin: 26px 0 9px
 }
@@ -902,7 +902,7 @@ select:focus-visible {
 }
 
 .last-call h2 {
-    font: 400 22px 'DM Serif Display', Georgia, serif;
+    font: 400 22px 'Playfair Display', Georgia, serif;
     margin: 6px 0
 }
 
@@ -1074,7 +1074,7 @@ select:focus-visible {
 }
 
 .about-article h2 {
-    font: 400 32px/1.2 'DM Serif Display', Georgia, serif;
+    font: 400 32px/1.2 'Playfair Display', Georgia, serif;
     letter-spacing: -.3px;
     margin: 18px 0
 }
@@ -1101,7 +1101,7 @@ select:focus-visible {
 }
 
 .about-facts strong {
-    font: 400 20px 'DM Serif Display';
+    font: 400 20px 'Playfair Display';
 }
 
 .about-facts span {
@@ -1112,7 +1112,7 @@ select:focus-visible {
 }
 
 .vision-quote {
-    font: italic 23px/1.45 'DM Serif Display';
+    font: italic 23px/1.45 'Playfair Display';
     color: #617553;
     border-left: 2px solid var(--gold);
     padding: 10px 20px;
@@ -1133,7 +1133,7 @@ select:focus-visible {
 
 .about-end p {
     flex: 1;
-    font: 400 17px 'DM Serif Display'
+    font: 400 17px 'Playfair Display'
 }
 
 .about-end .button {
@@ -1178,7 +1178,7 @@ select:focus-visible {
 }
 
 .service-row h2 {
-    font: 400 23px 'DM Serif Display';
+    font: 400 23px 'Playfair Display';
     margin: 7px 0 4px
 }
 
@@ -1293,7 +1293,7 @@ select:focus-visible {
 
 .route-shortcuts h2,
 .official-booking h2 {
-    font: 400 27px 'DM Serif Display';
+    font: 400 27px 'Playfair Display';
     margin: 10px 0 0
 }
 
@@ -1463,7 +1463,7 @@ select:focus-visible {
 }
 
 .info-card h2 {
-    font: 400 23px 'DM Serif Display';
+    font: 400 23px 'Playfair Display';
     margin: 8px 0
 }
 
@@ -1565,7 +1565,7 @@ select:focus-visible {
 }
 
 .notice-number {
-    font: italic 18px 'DM Serif Display';
+    font: italic 18px 'Playfair Display';
     color: #a58a50
 }
 
@@ -1574,7 +1574,7 @@ select:focus-visible {
 }
 
 .notice-row h2 {
-    font: 400 20px 'DM Serif Display';
+    font: 400 20px 'Playfair Display';
     margin: 8px 0 5px
 }
 
@@ -2474,7 +2474,7 @@ details.mobile-menu[open] .mobile-nav {
     max-width: 540px;
     margin: 21px 0 15px;
     color: white;
-    font: 400 clamp(37px, 5.2vw, 77px)/.99 'DM Serif Display', Georgia, serif;
+    font: 400 clamp(37px, 5.2vw, 77px)/.99 'Playfair Display', Georgia, serif;
     letter-spacing: -1.7px
 }
 
@@ -2518,7 +2518,7 @@ details.mobile-menu[open] .mobile-nav {
 }
 
 .hero-caption>span {
-    font: 400 20px 'DM Serif Display', Georgia, serif
+    font: 400 20px 'Playfair Display', Georgia, serif
 }
 
 .hero-caption small {
@@ -2616,7 +2616,7 @@ details.mobile-menu[open] .mobile-nav {
 }
 
 .search-shortcut strong {
-    font: 400 15px 'DM Serif Display', Georgia, serif
+    font: 400 15px 'Playfair Display', Georgia, serif
 }
 
 .search-shortcut small {
@@ -2657,7 +2657,7 @@ details.mobile-menu[open] .mobile-nav {
 
 .home-service-card h3 {
     margin: 16px 0 7px;
-    font: 400 18px 'DM Serif Display', Georgia, serif
+    font: 400 18px 'Playfair Display', Georgia, serif
 }
 
 .home-service-card p {
@@ -2687,7 +2687,7 @@ details.mobile-menu[open] .mobile-nav {
 }
 
 .home-route-grid .route-info h3 {
-    font: 400 20px 'DM Serif Display', Georgia, serif
+    font: 400 20px 'Playfair Display', Georgia, serif
 }
 
 .seamless-strip {
@@ -2704,7 +2704,7 @@ details.mobile-menu[open] .mobile-nav {
 
 .seamless-copy h2 {
     margin: 14px 0 12px;
-    font: 400 clamp(34px, 4vw, 52px)/1.05 'DM Serif Display', Georgia, serif;
+    font: 400 clamp(34px, 4vw, 52px)/1.05 'Playfair Display', Georgia, serif;
     letter-spacing: -1px
 }
 
@@ -2800,7 +2800,7 @@ details.mobile-menu[open] .mobile-nav {
 
 .discover-content h2 {
     margin: 18px 0 12px;
-    font: 400 clamp(35px, 4.5vw, 62px)/1.02 'DM Serif Display', Georgia, serif;
+    font: 400 clamp(35px, 4.5vw, 62px)/1.02 'Playfair Display', Georgia, serif;
     letter-spacing: -.8px
 }
 
@@ -2844,7 +2844,7 @@ details.mobile-menu[open] .mobile-nav {
 
 .about-hero h1 {
     margin: 20px 0 14px;
-    font: 400 clamp(46px, 6vw, 78px)/1 'DM Serif Display', Georgia, serif;
+    font: 400 clamp(46px, 6vw, 78px)/1 'Playfair Display', Georgia, serif;
     letter-spacing: -2px
 }
 
@@ -3868,7 +3868,7 @@ body {
 .main-nav a,
 .language-menu>summary,
 .mobile-nav a {
-    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif
+    font-family: Inter, Arial, sans-serif
 }
 
 @media(max-width:860px) {
@@ -4088,7 +4088,7 @@ body:has(.hero-stage) .site-header {
 
 /* Clearer, consistent type sizing across the railway site. */
 body {
-    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.65
 }
@@ -4097,7 +4097,7 @@ button,
 input,
 select,
 textarea {
-    font-family: Manrope, 'Noto Sans Sinhala', Arial, sans-serif
+    font-family: Inter, Arial, sans-serif
 }
 
 .main-nav a,
