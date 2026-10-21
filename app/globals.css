@@ -454,11 +454,8 @@ select:focus-visible {
 .booking-head {
     width: max-content;
     margin-left: auto;
-    display: flex;
+    display: hidden;
     align-items: center;
-    gap: 25px;
-    background: #fcfbf8;
-    padding: 8px 15px 8px 18px
 }
 
 .booking-head a {
@@ -471,31 +468,31 @@ select:focus-visible {
 }
 
 .booking-card {
-    background: #fff;
     box-shadow: 0 12px 38px #183d2610;
-    border: 1px solid #e9e6de;
-    border-radius: 10px !important;
+    /* border: 1px solid #e9e6de; */
+    border-radius: 0 10px 10px 10px ;
 
 }
 
 .booking-tabs {
     display: flex;
     align-items: center;
-    gap: 24px;
-    padding: 0 24px;
-    border-bottom: 1px solid var(--line);
-    height: 47px
+    height: 47px;
 }
 
 .booking-tabs button {
     height: 100%;
     border: 0;
     border-bottom: 2px solid transparent;
-    background: transparent;
+    /* background: transparent; */
+    background: rgba(255, 255, 255, .72);
     color: #747a72;
-    padding: 0 2px;
+    padding: 0 24px;
     font-size: 10px;
-    cursor: pointer
+    cursor: pointer;
+    border-bottom: 1px solid var(--line);
+    border-radius: 10px 10px 0 0;
+
 }
 
 .booking-tabs button.active {
@@ -505,10 +502,13 @@ select:focus-visible {
 }
 
 .booking-fields {
+    background: rgba(255, 255, 255, .72)!important;
     display: flex;
     align-items: end;
     padding: 20px 22px 15px;
-    gap: 10px
+    gap: 10px;
+    border-radius: 0 10px 0px 0px ;
+
 }
 
 .booking-fields label {
@@ -3652,7 +3652,6 @@ body {
 }
 
 .booking-wrap,
-.booking-card,
 .popular-section,
 .service-section,
 .journey-start,
@@ -4288,7 +4287,6 @@ textarea {
 
 .nav-search { background: rgba(255, 255, 255, .78) }
 .booking-head { background: rgba(255, 255, 255, .72) }
-.booking-card { background: rgba(255, 255, 255, .84) }
 .search-shortcut,
 .home-service-card,
 .about-sidebar,
@@ -4363,6 +4361,27 @@ textarea {
     margin-top: 0
 }
 
+.hero-booking-panel.is-docked .wrap {
+    position: fixed;
+    z-index: 40;
+    top: 14px;
+    left: 50%;
+    width: min(1250px, 90%);
+    transform: translateX(-50%);
+    animation: booking-dock-in .24s ease-out both
+}
+
+.hero-booking-panel.is-docked .booking-card,
+.hero-booking-panel.is-docked .booking-head {
+    background: #fff;
+    box-shadow: 0 14px 42px rgba(25, 45, 70, .2)
+}
+
+@keyframes booking-dock-in {
+    from { opacity: 0; translate: 0 -10px }
+    to { opacity: 1; translate: 0 0 }
+}
+
 .hero-caption { bottom: 205px }
 .hero-controls { bottom: 195px }
 .home-hero .hero-bottom-note { display: none }
@@ -4383,6 +4402,13 @@ textarea {
         padding-bottom: 40px
     }
 
+    .hero-booking-panel.is-docked .wrap {
+        top: 8px;
+        width: 96%;
+        max-height: calc(100vh - 16px);
+        overflow: auto
+    }
+
     .hero-caption { bottom: 62px }
     .hero-controls { bottom: 58px }
 
@@ -4395,6 +4421,10 @@ textarea {
     .booking-fields input { font-size: 13px }
     .search-button { font-size: 12px }
     .booking-footnote { font-size: 9px }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-booking-panel.is-docked .wrap { animation: none }
 }
 .span{
     font-family: 'Playfair Display', Georgia, serif;
