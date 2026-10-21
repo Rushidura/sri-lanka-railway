@@ -4887,3 +4887,11 @@ html {
         gap: 14px;
     }
 }
+
+/* Keep passenger information card headings crisp and consistent with the UI. */
+.info-grid .info-card h2 {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+}
