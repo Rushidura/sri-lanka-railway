@@ -1,5 +1,5 @@
 import vinext from "vinext";
-import { defineConfig } from "vite";
+import { defineConfig, type PluginOption } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { configureToolEnvironment } from "./scripts/tool-environment.mjs";
@@ -40,20 +40,20 @@ const localBindingConfig = {
 export default defineConfig(async ({ command }) => {
   configureToolEnvironment(process.cwd());
 
-  // Wrangler snapshots its log path while the Cloudflare plugin is imported.
-  const { cloudflare } = await import("@cloudflare/vite-plugin");
+  const deploymentPlugins: PluginOption[] = [];
 
-  return {
-    server: {
-      ...(managedLinux
-        ? { host: "0.0.0.0", allowedHosts: ["terminal.local"] }
-        : {}),
-      ...(isCodexSeatbeltSandbox
-        ? { watch: { useFsEvents: false, usePolling: true } }
-        : {}),
-    },
-    plugins: [
-      vinext(),
+  if (process.env.VERCEL) {
+    // Vercel needs Nitro's Build Output API adapter; it cannot consume Next's
+    // routes-manifest because vinext builds with Vite.
+    const { default: tailwindcss } = await import("@tailwindcss/vite");
+    const { nitro } = await import("nitro/vite");
+    deploymentPlugins.push(tailwindcss(), vinext());
+    deploymentPlugins.push(nitro());
+  } else {
+    // Wrangler snapshots its log path while the Cloudflare plugin is imported.
+    const { cloudflare } = await import("@cloudflare/vite-plugin");
+    deploymentPlugins.push(vinext());
+    deploymentPlugins.push(
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),
       cloudflare({
@@ -87,6 +87,18 @@ export default defineConfig(async ({ command }) => {
             }
           : {}),
       }),
-    ],
+    );
+  }
+
+  return {
+    server: {
+      ...(managedLinux
+        ? { host: "0.0.0.0", allowedHosts: ["terminal.local"] }
+        : {}),
+      ...(isCodexSeatbeltSandbox
+        ? { watch: { useFsEvents: false, usePolling: true } }
+        : {}),
+    },
+    plugins: deploymentPlugins,
   };
 });
