@@ -37,7 +37,7 @@ export function HeroCarousel() {
                         </div>
                     </div>
                     
-                    <div className="hero-caption">
+                    <div className="hero-caption" key={`caption-${index}`} aria-live="polite">
                         <span>{slide.route}</span>
                         <small>{slide.place}</small>
                     </div>

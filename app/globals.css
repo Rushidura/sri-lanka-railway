@@ -5114,3 +5114,79 @@ html {
         margin-left: 37px;
     }
 }
+
+/* Place the journey search beneath its introduction instead of over the hero. */
+.journey-start .hero-booking-panel {
+    position: relative;
+    margin: 0 0 24px;
+    padding: 0;
+}
+
+.journey-start .hero-booking-panel > .wrap {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.journey-start .hero-booking-panel .booking-wrap {
+    margin: 0;
+}
+
+.journey-start .section-heading.compact {
+    margin-bottom: 22px;
+}
+
+.journey-start {
+    padding-top: 104px;
+}
+
+/* Keep the rotating route title and controls together along the hero's lower edge. */
+.home-hero .hero-caption {
+    bottom: 61px;
+    animation: hero-caption-rise .55s cubic-bezier(.2, .75, .25, 1) both;
+}
+
+.home-hero .hero-controls {
+    bottom: 47px;
+    animation: hero-controls-rise .55s .08s cubic-bezier(.2, .75, .25, 1) both;
+}
+
+.home-hero .hero-bottom-note {
+    display: flex;
+}
+
+@keyframes hero-caption-rise {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hero-controls-rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 700px) {
+    .journey-start {
+        padding-top: 74px;
+    }
+
+    .journey-start .hero-booking-panel {
+        margin-bottom: 18px;
+    }
+
+    .home-hero .hero-caption {
+        bottom: 54px;
+    }
+
+    .home-hero .hero-controls {
+        bottom: 39px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-hero .hero-caption,
+    .home-hero .hero-controls {
+        animation: none;
+    }
+}

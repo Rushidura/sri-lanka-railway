@@ -23,8 +23,50 @@ const services = [
 export default function Home() {
   return <SiteShell><main>
     <HeroCarousel />
-    <ScrollBookingPanel><BookingSearch /></ScrollBookingPanel>
-    <section className="journey-start wrap" id="journey" data-reveal><div className="section-heading compact"><div><div className="eyebrow"><span className="gold-dot" /> PLAN YOUR RAIL JOURNEY</div><h2>Where would you like<br /><em>to go</em><span className="span">?</span></h2></div><p>Find a route, look up a train, or check the timetable before you travel.</p></div><div className="search-shortcuts"><Link href="#booking" className="search-shortcut"><span><MapPin size={19} /></span><div><strong>Search by route</strong><small>Choose your starting point and destination</small></div><ArrowUpRight size={17} /></Link><Link href="/schedule#train-search" className="search-shortcut"><span><TrainFront size={19} /></span><div><strong>Search by train</strong><small>Look up a train by name or number</small></div><ArrowUpRight size={17} /></Link><Link href="/schedule" className="search-shortcut"><span><Clock3 size={19} /></span><div><strong>View schedules</strong><small>Open official timetable information</small></div><ArrowUpRight size={17} /></Link></div></section>
+    <section className="journey-start wrap" id="journey" data-reveal>
+      <div className="section-heading compact">
+        <div>
+          <div className="eyebrow">
+            <span className="gold-dot" /> PLAN YOUR RAIL JOURNEY
+          </div>
+          <h2>Where would you like<br /><em>to go</em><span className="span">?</span></h2>
+        </div>
+        <p>Find a route, look up a train, or check the timetable before you travel.</p>
+      </div>
+      <ScrollBookingPanel><BookingSearch /></ScrollBookingPanel>
+      <div className="search-shortcuts">
+        <Link href="#booking" className="search-shortcut">
+          <span>
+            <MapPin size={19} />
+          </span>
+          <div>
+            <strong>Search by route</strong>
+            <small>Choose your starting point and destination</small>
+          </div>
+          <ArrowUpRight size={17} />
+        </Link>
+        <Link href="/schedule#train-search" className="search-shortcut">
+          <span>
+            <TrainFront size={19} />
+          </span>
+          <div>
+            <strong>Search by train</strong>
+            <small>Look up a train by name or number</small>
+          </div>
+          <ArrowUpRight size={17} />
+        </Link>
+        <Link href="/schedule" className="search-shortcut">
+          <span>
+            <Clock3 size={19} />
+          </span>
+          <div>
+            <strong>View schedules</strong>
+            <small>Open official timetable information</small>
+          </div>
+          <ArrowUpRight size={17} />
+        </Link>
+      </div>
+    </section>
 
     <section className="service-section section-pad" data-reveal><div className="wrap"><div className="section-heading compact"><div><div className="eyebrow"><span className="gold-dot" /> EVERYTHING YOU NEED FOR A SEAMLESS TRIP</div><h2>Railway services<br /><em>for every need.</em></h2></div><Link className="text-link" href="/services">All railway services <ArrowRight size={16} /></Link></div><div className="home-service-grid">{services.map(({ name, copy, icon: Icon, href, label }) => <article className="home-service-card" key={name}><span className="home-service-icon"><Icon size={20} /></span><h3>{name}</h3><p>{copy}</p><a href={href} target="_blank" rel="noopener noreferrer">View details <ArrowUpRight size={14} /><span className="sr-only">: {label}</span></a></article>)}</div></div></section>
 

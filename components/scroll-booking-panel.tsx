@@ -20,6 +20,7 @@ export function ScrollBookingPanel({ children }: { children: React.ReactNode }) 
   return (
     <section
       className={`hero-booking-panel${visible ? " is-visible" : ""}`}
+      data-reveal
       aria-hidden={!visible}
       aria-label="Search your train journey"
     >
