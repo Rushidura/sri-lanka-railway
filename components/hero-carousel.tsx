@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, Pause, Play } from "lucide-react";
 
 const slides = [
-    { image: "/images/nine-arch-train.png", alt: "A train crossing the Nine Arch Bridge in Ella", place: "NINE ARCH BRIDGE, ELLA", route: "Ella to Kandy", eyebrow: "THE HILL COUNTRY", title: "Sri Lanka, seen from the window.", copy: "Mist-covered mountains, tea gardens and the legendary Nine Arch Bridge. Take the slow road through the heart of the island." },
-    { image: "/images/Blue%20Train%20Over%20Misty%20Mountain%20Viaduct.png", alt: "Blue train passing over a misty mountain viaduct", place: "HILL COUNTRY LINE", route: "Kandy to Ella", eyebrow: "ABOVE THE CLOUDS", title: "A journey worth taking slowly.", copy: "Follow the railway through cool highlands and green valleys, where every bend brings another island view." },
-    { image: "/images/Tropical%20Coastal%20Train%20Journey.png", alt: "Coastal railway journey along the Sri Lankan shore", place: "SOUTHERN COAST", route: "Colombo to Galle", eyebrow: "THE COAST LINE", title: "Let the ocean set the pace.", copy: "Ride beside the Indian Ocean, past fishing towns and palm-lined shores on Sri Lanka’s southern coast." },
-    { image: "/images/Misty%20Blue%20Train%20Through%20the%20Rainforest.png", alt: "Train travelling through lush Sri Lankan rainforest", place: "RAINFOREST ROUTE", route: "Colombo to Badulla", eyebrow: "GREEN COUNTRY", title: "Find a greener way across the island.", copy: "From city stations to quiet hill-country towns, the railway connects landscapes and the people who call them home." },
-    { image: "/images/Sri%20Lanka%20Railway%20Sunset%20Panorama.png", alt: "Sri Lankan railway landscape in warm evening light", place: "SRI LANKA, BY RAIL", route: "Journeys across Sri Lanka", eyebrow: "ONE ISLAND, COUNTLESS JOURNEYS", title: "Make the journey part of the story.", copy: "Discover familiar places from a new perspective, with Sri Lanka Railways as your guide." },
+    { image: "/images/nine-arch-train.png", mobileImage: "/images/mobile/Misty%20Mountain%20Valley%20Train%20Journey.png", alt: "A train crossing the Nine Arch Bridge in Ella", place: "NINE ARCH BRIDGE, ELLA", route: "Ella to Kandy", eyebrow: "THE HILL COUNTRY", title: "Sri Lanka, seen from the window.", copy: "Mist-covered mountains, tea gardens and the legendary Nine Arch Bridge. Take the slow road through the heart of the island." },
+    { image: "/images/Blue%20Train%20Over%20Misty%20Mountain%20Viaduct.png", mobileImage: "/images/mobile/Blue%20Train%20Through%20Misty%20Mountain%20Valley.png", alt: "Blue train passing over a misty mountain viaduct", place: "HILL COUNTRY LINE", route: "Kandy to Ella", eyebrow: "ABOVE THE CLOUDS", title: "A journey worth taking slowly.", copy: "Follow the railway through cool highlands and green valleys, where every bend brings another island view." },
+    { image: "/images/Tropical%20Coastal%20Train%20Journey.png", mobileImage: "/images/mobile/Tropical%20Coastal%20Train%20Journey.png", alt: "Coastal railway journey along the Sri Lankan shore", place: "SOUTHERN COAST", route: "Colombo to Galle", eyebrow: "THE COAST LINE", title: "Let the ocean set the pace.", copy: "Ride beside the Indian Ocean, past fishing towns and palm-lined shores on Sri Lanka’s southern coast." },
+    { image: "/images/Misty%20Blue%20Train%20Through%20the%20Rainforest.png", mobileImage: "/images/mobile/Misty%20Rainforest%20Tunnel%20Train.png", alt: "Train travelling through lush Sri Lankan rainforest", place: "RAINFOREST ROUTE", route: "Colombo to Badulla", eyebrow: "GREEN COUNTRY", title: "Find a greener way across the island.", copy: "From city stations to quiet hill-country towns, the railway connects landscapes and the people who call them home." },
+    { image: "/images/Sri%20Lanka%20Railway%20Sunset%20Panorama.png", mobileImage: "/images/mobile/Golden%20Hour%20at%20the%20Historic%20Station.png", alt: "Sri Lankan railway landscape in warm evening light", place: "SRI LANKA, BY RAIL", route: "Journeys across Sri Lanka", eyebrow: "ONE ISLAND, COUNTLESS JOURNEYS", title: "Make the journey part of the story.", copy: "Discover familiar places from a new perspective, with Sri Lanka Railways as your guide." },
 ];
 
 export function HeroCarousel() {
@@ -22,7 +22,10 @@ export function HeroCarousel() {
     const slide = slides[index];
     return  <section className="home-hero" aria-label="Discover Sri Lanka by rail">
                 <div className="hero-stage">
-                    <Image key={slide.image} src={slide.image} alt={slide.alt} fill priority sizes="100vw" style={{ objectPosition: index === 2 ? "center 57%" : "center 55%" }} />
+                    <picture className="hero-image">
+                        <source media="(max-width: 760px)" srcSet={slide.mobileImage} />
+                        <Image key={slide.image} src={slide.image} alt={slide.alt} fill priority sizes="100vw" style={{ objectPosition: index === 2 ? "center 57%" : "center 55%" }} />
+                    </picture>
                     <div className="hero-overlay" />
                     <div className="hero-copy">
                         <div className="eyebrow">

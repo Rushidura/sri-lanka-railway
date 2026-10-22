@@ -5580,6 +5580,27 @@ html {
 
 @media (max-width: 760px) {
     .site-header .nav-wrap .mobile-menu[open] .mobile-nav { background: #fff; }
+
+    .home-hero .hero-stage {
+        width: 100%;
+        height: 100vh;
+        height: 100svh;
+        min-height: 0;
+        aspect-ratio: 9 / 16;
+    }
+
+    .home-hero .hero-stage > .hero-image,
+    .home-hero .hero-stage > .hero-image > img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-hero .hero-stage > .hero-image > img {
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
 .journey-start {
@@ -5633,5 +5654,14 @@ html {
     .home-hero .hero-caption,
     .home-hero .hero-controls {
         animation: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .home-hero .hero-stage {
+        height: 100vh;
+        height: 100svh;
+        min-height: 0;
+        aspect-ratio: 9 / 16;
     }
 }
