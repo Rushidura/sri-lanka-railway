@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { ChevronDown, Search } from "lucide-react";
+import { ChevronDown, Search, X } from "lucide-react";
 import { SiteFooter } from "@/components/site-footer";
 
 const nav = [
@@ -37,9 +37,9 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   }, [searchOpen]);
 
   useEffect(() => {
-    if (pathname === "/stations") {
-      setSearchQuery(new URLSearchParams(window.location.search).get("q") ?? "");
-    }
+    // After a station search navigates, restore the compact navbar control.
+    setSearchOpen(false);
+    setSearchQuery("");
   }, [pathname]);
 
   const isActive = (href: string) => {
@@ -62,14 +62,17 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <span className="brand-text">SRI LANKA<span>RAILWAYS</span></span>
         </Link>
         <nav className="main-nav" aria-label="Main navigation">{renderLinks()}</nav>
-        <form ref={searchForm} className={`nav-search${searchOpen ? " is-open" : ""}`} role="search" action="/stations" onSubmit={event => { if (!searchQuery.trim()) event.preventDefault(); }}>
+        <form ref={searchForm} className={`nav-search${searchOpen ? " is-open" : ""}`} role="search" action="/stations" onSubmit={event => {
+          if (!searchQuery.trim()) event.preventDefault();
+        }}>
           <label className="sr-only" htmlFor="nav-station-search">Search stations</label>
           {searchOpen && <input ref={searchInput} id="nav-station-search" name="q" type="search" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} placeholder="Search stations" />}
-          <button type="button" aria-label={searchQuery.trim() ? "Search stations" : "Open station search"} aria-expanded={searchOpen} onClick={() => {
-            if (searchQuery.trim()) searchForm.current?.requestSubmit();
-            else if (!searchOpen) setSearchOpen(true);
-            else searchInput.current?.focus();
-          }}><Search size={15} /></button>
+          <button type="button" aria-label={searchQuery.trim() ? "Search stations" : searchOpen ? "Close station search" : "Open station search"} aria-expanded={searchOpen} onClick={() => {
+            if (searchQuery.trim()) {
+              searchForm.current?.requestSubmit();
+            } else if (!searchOpen) setSearchOpen(true);
+            else setSearchOpen(false);
+          }}>{searchOpen && !searchQuery.trim() ? <X size={15} /> : <Search size={15} />}</button>
         </form>
         <details className="language-menu">
           <summary aria-label="Choose language">EN <ChevronDown size={14} /></summary>
