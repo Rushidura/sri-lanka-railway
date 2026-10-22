@@ -5137,6 +5137,84 @@ html {
     margin-bottom: 22px;
 }
 
+/* Keep the station search icon compact until the visitor asks to search. */
+.nav-search {
+    flex-basis: 38px;
+    width: 38px;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    transition: width .24s ease, flex-basis .24s ease, padding .24s ease, box-shadow .24s ease;
+}
+
+.nav-search.is-open {
+    flex-basis: 154px;
+    width: 154px;
+    justify-content: initial;
+    padding: 0 5px 0 12px;
+}
+
+.nav-search:not(.is-open) input {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .nav-search.is-open { flex-basis: 124px; width: 124px; }
+}
+
+@media (max-width: 860px) and (min-width: 701px) {
+    .nav-search.is-open { flex-basis: 108px; width: 108px; }
+}
+
+@media (max-width: 700px) {
+    .nav-search, .nav-search.is-open {
+        flex: 0 0 35px;
+        width: 35px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .nav-search.is-open {
+        position: absolute;
+        right: 86px;
+        width: min(190px, calc(100vw - 190px));
+        flex-basis: min(190px, calc(100vw - 190px));
+        justify-content: initial;
+        padding: 0 5px 0 12px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(30, 55, 90, .12);
+    }
+
+    .nav-search.is-open input {
+        position: static;
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        pointer-events: auto;
+        font-size: 11px;
+    }
+}
+
+/* Give the schedule form a more defined edge and a soft lift from the page. */
+.journey-start .booking-card {
+    border: 1px solid #d9e2ef;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 14px 36px rgba(35, 60, 103, .1), 0 2px 8px rgba(35, 60, 103, .045);
+    transition: box-shadow .25s ease, border-color .25s ease, transform .25s ease;
+}
+
+.journey-start .booking-card:hover {
+    border-color: #c4d2e6;
+    box-shadow: 0 18px 42px rgba(35, 60, 103, .14), 0 3px 10px rgba(35, 60, 103, .06);
+    transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nav-search, .journey-start .booking-card { transition: none; }
+    .journey-start .booking-card:hover { transform: none; }
+}
+
 .journey-start {
     padding-top: 104px;
 }

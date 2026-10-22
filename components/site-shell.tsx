@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Search } from "lucide-react";
 import { SiteFooter } from "@/components/site-footer";
 
@@ -20,6 +20,8 @@ const nav = [
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [hash, setHash] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchInput = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const syncHash = () => setHash(window.location.hash);
@@ -27,6 +29,10 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
     window.addEventListener("hashchange", syncHash);
     return () => window.removeEventListener("hashchange", syncHash);
   }, [pathname]);
+
+  useEffect(() => {
+    if (searchOpen) searchInput.current?.focus();
+  }, [searchOpen]);
 
   const isActive = (href: string) => {
     const [path, fragment] = href.split("#");
@@ -48,10 +54,10 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <span className="brand-text">SRI LANKA<span>RAILWAYS</span></span>
         </Link>
         <nav className="main-nav" aria-label="Main navigation">{renderLinks()}</nav>
-        <form className="nav-search" role="search" action="/stations">
+        <form className={`nav-search${searchOpen ? " is-open" : ""}`} role="search" action="/stations">
           <label className="sr-only" htmlFor="nav-station-search">Search stations</label>
-          <input id="nav-station-search" name="q" type="search" placeholder="Search stations" />
-          <button type="submit" aria-label="Search stations"><Search size={15} /></button>
+          {searchOpen && <input ref={searchInput} id="nav-station-search" name="q" type="search" placeholder="Search stations" />}
+          <button type="button" aria-label={searchOpen ? "Close station search" : "Open station search"} aria-expanded={searchOpen} onClick={() => setSearchOpen(open => !open)}><Search size={15} /></button>
         </form>
         <details className="language-menu">
           <summary aria-label="Choose language">EN <ChevronDown size={14} /></summary>
