@@ -5581,6 +5581,10 @@ html {
 @media (max-width: 760px) {
     .site-header .nav-wrap .mobile-menu[open] .mobile-nav { background: #fff; }
 
+    .story-strip {
+        margin-top: 20px;
+    }
+
     .home-hero .hero-stage {
         width: 100%;
         height: 100vh;
