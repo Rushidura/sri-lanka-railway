@@ -486,7 +486,8 @@ select:focus-visible {
     border: 0;
     border-bottom: 2px solid transparent;
     /* background: transparent; */
-    background: rgba(255, 255, 255, .72);
+    /* background: rgba(255, 255, 255, .72); */
+    background: var(--line);
     color: #747a72;
     padding: 0 24px;
     font-size: 10px;
@@ -5198,8 +5199,9 @@ html {
 /* Give the schedule form a more defined edge and a soft lift from the page. */
 .journey-start .booking-card {
     border: 1px solid #d9e2ef;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     background: #fff;
+    margin-top: 2px;
     box-shadow: 0 14px 36px rgba(35, 60, 103, .1), 0 2px 8px rgba(35, 60, 103, .045);
     transition: box-shadow .25s ease, border-color .25s ease, transform .25s ease;
 }

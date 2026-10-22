@@ -21,7 +21,9 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [hash, setHash] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const searchInput = useRef<HTMLInputElement>(null);
+  const searchForm = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     const syncHash = () => setHash(window.location.hash);
@@ -33,6 +35,12 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (searchOpen) searchInput.current?.focus();
   }, [searchOpen]);
+
+  useEffect(() => {
+    if (pathname === "/stations") {
+      setSearchQuery(new URLSearchParams(window.location.search).get("q") ?? "");
+    }
+  }, [pathname]);
 
   const isActive = (href: string) => {
     const [path, fragment] = href.split("#");
@@ -54,10 +62,14 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <span className="brand-text">SRI LANKA<span>RAILWAYS</span></span>
         </Link>
         <nav className="main-nav" aria-label="Main navigation">{renderLinks()}</nav>
-        <form className={`nav-search${searchOpen ? " is-open" : ""}`} role="search" action="/stations">
+        <form ref={searchForm} className={`nav-search${searchOpen ? " is-open" : ""}`} role="search" action="/stations" onSubmit={event => { if (!searchQuery.trim()) event.preventDefault(); }}>
           <label className="sr-only" htmlFor="nav-station-search">Search stations</label>
-          {searchOpen && <input ref={searchInput} id="nav-station-search" name="q" type="search" placeholder="Search stations" />}
-          <button type="button" aria-label={searchOpen ? "Close station search" : "Open station search"} aria-expanded={searchOpen} onClick={() => setSearchOpen(open => !open)}><Search size={15} /></button>
+          {searchOpen && <input ref={searchInput} id="nav-station-search" name="q" type="search" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} placeholder="Search stations" />}
+          <button type="button" aria-label={searchQuery.trim() ? "Search stations" : "Open station search"} aria-expanded={searchOpen} onClick={() => {
+            if (searchQuery.trim()) searchForm.current?.requestSubmit();
+            else if (!searchOpen) setSearchOpen(true);
+            else searchInput.current?.focus();
+          }}><Search size={15} /></button>
         </form>
         <details className="language-menu">
           <summary aria-label="Choose language">EN <ChevronDown size={14} /></summary>
